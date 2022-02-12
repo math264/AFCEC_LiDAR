@@ -9,8 +9,17 @@ question: to assess societal infrastructure impacts...
 motivation: and how we can re-define walkability to promote better health and sustainability.
 
 # Table of Contents
-[Project Description](#Project-Description)
-[References](#References)
++ [Project Description](#Project-Description)
++ [Inspiration](#Inspiration)
++ [Literature Review](#Literature-Review)
++ [Map Objectives](#Map-Objectives)
++ [Data Sources](#Data-Sources)
++ [Methodology](#Methodology)
++ [Study Area](##Study-Area)
++ [Conclusion](#Conclusion)
++ [Mockups](#Mockups)
++ [References](#References)
+
 # Project Description
 
 Despite the associated benefits of exercise many of us struggle to remain active, trying to keep up with the hustle and bustle of life. Intentional or not, the fact remains that physical activity is a part of our daily lives. Inherent though design, urban planning strives to faciliate more walking into our lifestyle. Walkability is an important urban design concept that is mutually beneficial to the well-being of communities and their efficiency. Walking enables urban planning to not only perpetuate sustainable transportation and its reduced emissions, but promote healthy and livable communities. Initially adopted in response to increased population densities and urban sprawl, walkability developed into a multi-faceted solution in health, sustainability, and livability. 
@@ -23,6 +32,8 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 + Assessment of walkability index dataset and analysis to see if the index could be re-defined 
 + A comparative review of social impacts on the walkability index (WI) (e.g. transportation, food desserts/swamps)
 
+# Inspiration
+
 # Literature Review
 **See .md files in Literature Review**
 
@@ -30,12 +41,9 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 
 # Data Sources
 
-# Content & Requirements
-
+# Methodology
 **Desirable Factors Pedestrians associate with increased Walkability**
 ![alt text for screen readers](/images/Factors.jpg "Desirable Factors")
-
-# Methodology
 
 ## Study Area
 + City of Lexington background
@@ -44,7 +52,7 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 
 # Conclusion
 
-# WireFrames & Mockup Inspiration
+# Mockups
 
 # References
 
