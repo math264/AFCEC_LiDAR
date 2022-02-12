@@ -7,3 +7,8 @@ Highlights
 + Supplements walkability measures with new data gathered from images.
 + Demonstrates application of computer vision in gathering street-level data.
 + Value of proximal amenities reliant on personal access to pedestrian infrastructure.
+
+**Walk Score**
+
++ Company that compiles Walk, Bike, and Transportation Scores and how they affect real estate prices
++ already sent them a request to access Lexington, KY shapefile 
