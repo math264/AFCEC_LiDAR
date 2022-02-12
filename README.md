@@ -1,8 +1,8 @@
 <!-- *************************************DRAFT******************************************* -->
 # Title
-Does Lexington, KY Go the Extra Mile?
+Going the Extra Mile
 ## Subtitle:
-Exploration of Lexington's Walkability & Transportation Networks
+Exploration of Walkability in Lexinton, KY
 
 topic: I want to design a map and narrative that explores the walkability index...
 question: to assess societal infrastructure impacts...
@@ -42,8 +42,6 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 # Data Sources
 
 # Methodology
-**Desirable Factors Pedestrians associate with increased Walkability**
-[alt text for screen readers](/images/Factors.png)
 
 ## Study Area
 + City of Lexington background
