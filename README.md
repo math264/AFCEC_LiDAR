@@ -12,10 +12,12 @@ motivation: and how we can re-define walkability to promote better health and su
 + [Project Description](#Project-Description)
 + [Inspiration](#Inspiration)
 + [Literature Review](#Literature-Review)
++ [What Is Walkability?](##What-Is-Walkability?)
++ [Walking Conditions & Associations](##Walking-Conditions-&-Associations)
 + [Map Objectives](#Map-Objectives)
-+ [Data Sources](#Data-Sources)
 + [Methodology](#Methodology)
 + [Study Area](##Study-Area)
++ [Data](#Data)
 + [Conclusion](#Conclusion)
 + [Mockups](#Mockups)
 + [References](#References)
@@ -36,10 +38,10 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 
 # Literature Review
 **See .md files in Literature Review**
+## What is Walkability?
+## Walking Conditions and Associations
 
 # Map Objectives
-
-# Data Sources
 
 # Methodology
 
@@ -47,6 +49,8 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 + City of Lexington background
 + aerial screenshots of walking environments
 + Assess if defined factors of WI are good dictators for encouraging walking along study route(s)? 
+
+# Data
 
 # Conclusion
 
