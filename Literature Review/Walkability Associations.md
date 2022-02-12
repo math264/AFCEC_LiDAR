@@ -1,0 +1,1 @@
++ Watson, K. B., Whitfield, G. P., Thomas, J. V., Berrigan, D., Fulton, J. E., & Carlson, S. A. (2020). Associations between the National Walkability Index and walking among US Adults — National Health Interview Survey, 2015. Preventive Medicine, 137, 106122. https://doi.org/10.1016/j.ypmed.2020.106122
