@@ -43,7 +43,7 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 
 # Methodology
 **Desirable Factors Pedestrians associate with increased Walkability**
-![alt text for screen readers](/images/Factors.jpg "Desirable Factors")
+[alt text for screen readers](/images/Factors.png)
 
 ## Study Area
 + City of Lexington background
