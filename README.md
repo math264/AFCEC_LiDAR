@@ -8,6 +8,9 @@ topic: I want to design a map and narrative that explores the walkability index.
 question: to assess societal infrastructure impacts...
 motivation: and how we can re-define walkability to promote better health and sustainability.
 
+# Table of Contents
+[Project Description](#Project-Description)
+[References](#References)
 # Project Description
 
 Despite the associated benefits of exercise many of us struggle to remain active, trying to keep up with the hustle and bustle of life. Intentional or not, the fact remains that physical activity is a part of our daily lives. Inherent though design, urban planning strives to faciliate more walking into our lifestyle. Walkability is an important urban design concept that is mutually beneficial to the well-being of communities and their efficiency. Walking enables urban planning to not only perpetuate sustainable transportation and its reduced emissions, but promote healthy and livable communities. Initially adopted in response to increased population densities and urban sprawl, walkability developed into a multi-faceted solution in health, sustainability, and livability. 
@@ -21,6 +24,29 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 + A comparative review of social impacts on the walkability index (WI) (e.g. transportation, food desserts/swamps)
 
 # Literature Review
+**See .md files in Literature Review**
+
+# Map Objectives
+
+# Data Sources
+
+# Content & Requirements
+
+**Desirable Factors Pedestrians associate with increased Walkability**
+![alt text for screen readers](/images/Factors.jpg "Desirable Factors")
+
+# Methodology
+
+## Study Area
++ City of Lexington background
++ aerial screenshots of walking environments
++ Assess if defined factors of WI are good dictators for encouraging walking along study route(s)? 
+
+# Conclusion
+
+# WireFrames & Mockup Inspiration
+
+# References
 
 + Baobeid, A., Koç, M., & Al-Ghamdi, S. G. (2021). Walkability and Its Relationships With Health, Sustainability, and Livability: Elements of Physical Environment and Evaluation Frameworks. Frontiers in Built Environment, 7. https://doi.org/10.3389/fbuil.2021.721218
 
@@ -39,12 +65,3 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 + Yencha, C. (2019). Valuing walkability: New evidence from computer vision methods. Transportation Research Part A: Policy and Practice, 130, 689–709. https://doi.org/10.1016/j.tra.2019.09.053
 
 
-# Map Objectives
-
-# Data Sources
-
-# Content & Requirements
-
-# Conclusion
-
-# WireFrames & Mockup Sketches
