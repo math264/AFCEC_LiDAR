@@ -16,6 +16,7 @@ motivation: and how we can re-define walkability to promote better health and su
 + [Walking Conditions & Associations](##Walking-Conditions-&-Associations)
 + [Map Objectives](#Map-Objectives)
 + [Methodology](#Methodology)
++ [Measuring Walkability](##Measuring-Walkability)
 + [Study Area](##Study-Area)
 + [Data](#Data)
 + [Conclusion](#Conclusion)
@@ -44,6 +45,18 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 # Map Objectives
 
 # Methodology
+## Measuring Walkability
++ Aesthetics 
+    + cleanliness
+    + atmosphere/scenery
+    + social interaction
++ Safety
+    + sidewalks
+    + traffic volume
+    + lighting/visibility
++ Accessibility
+    + pedestrian design (curb extensions, shading, benches)
+    + public transit
 
 ## Study Area
 + City of Lexington background
