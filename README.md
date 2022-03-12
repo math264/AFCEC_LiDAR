@@ -11,7 +11,7 @@ motivation: and how we can re-define walkability to promote better health and su
 # Table of Contents
 + [Introduction](#I-Introduction)
 + [Methodology](#II-Methodology)
-+ [Data](##A-Data)
++ [Data](##Data)
 + [Medium for Delivery](##B-Medium-for-Delivery)
 + [Application Layout](##C-Application-Layout)
 + [Thematic Representation](##D-Thematic-Representation)
