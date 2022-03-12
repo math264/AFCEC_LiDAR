@@ -28,7 +28,7 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 
 The following map conducts it's examination on routes and their metrics in Lexington,KY. Through cartographic and user design, this map will appeal to those in city planning/urban safety and explore metrics pedestrians' value most during a walk. The user will be informed on the idea of walkability and what it means to them and their community. Those in city planning/urban safety will see walkability in a new perspective and hopefully be inspired to improve their designs.
 
-<div style="text-align: center">Wireframe</div>
+**Wireframe**
 ![Wireframe](Wireframe.PNG)
 
 # II. Methodology 
@@ -37,10 +37,10 @@ This project's methodology is comprised of numerous subsections that cover data,
 
 ## A. Data
 
-**Data Source**
+**Data Source**:
 The data source is ground-truth from field collection in Lexington, KY. 
 
-**Data Acquisition & Wrangling**
+**Data Acquisition & Wrangling**:
 Data is represented as routes and markers. Collection involved physically walking each route, taking photos with GPS coordinates, and rating the walkability of a photo's location through a series of compiled metrics. Initial pilot data collected is to verify methodology and approach. 
 
 Metrics used to rate Walkability:
@@ -71,6 +71,7 @@ After collection, data was processed into routes and markers...
 + GPS coordinates of each photo exported as geoJSON using ImportPhotos plugin
 + Attribute tables cleaned up and metric collections added as new field data
 
+![Data-example](./Images/Walkability/data_example.JPG)
 
 **Anticipated Format**
 + Route and Marker data will be hosted in geoJSON forat for web-mapping
@@ -79,6 +80,8 @@ After collection, data was processed into routes and markers...
 + Karl Raitz's historic route
 
 ## B. Medium for Delivery
+
+The map is a web browser-based application accessible across mobile and desktop devices which will utilize a specific technology stack that incorporates application, thematic representation, and user interaction. This is tentative, but as a baseline, this project's technology stack will most likely require HTML, SVG, CSS, JavaScript, and Bootstrap to create a responsive framework.
 
 ## C. Application Layout
 
