@@ -28,12 +28,55 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 
 The following map conducts it's examination on routes and their metrics in Lexington,KY. Through cartographic and user design, this map will appeal to those in city planning/urban safety and explore metrics pedestrians' value most during a walk. The user will be informed on the idea of walkability and what it means to them and their community. Those in city planning/urban safety will see walkability in a new perspective and hopefully be inspired to improve their designs.
 
-**Wireframe**
+<div style="text-align: center">Wireframe</div>
 ![Wireframe](Wireframe.PNG)
 
 # II. Methodology 
 
+This project's methodology is comprised of numerous subsections that cover data, application, interaction, and overall front-end design. 
+
 ## A. Data
+
+**Data Source**
+The data source is ground-truth from field collection in Lexington, KY. 
+
+**Data Acquisition & Wrangling**
+Data is represented as routes and markers. Collection involved physically walking each route, taking photos with GPS coordinates, and rating the walkability of a photo's location through a series of compiled metrics. Initial pilot data collected is to verify methodology and approach. 
+
+Metrics used to rate Walkability:
++ Aesthetics
+    + Cleanliness
+    + Atmosphere
+    + Interaction
++ Safety
+    + Sidewalks
+    + Traffic Volume
+    + Visibility
+    + Pedestrian Design
+
+After collection, data was processed into routes and markers...
+
+**Routes**
++ Initially digitized in Google Maps
++ Converted Google Maps URL to [GPX file](https://mapstogpx.com/)
++ Converted GPX file into GeoJSON using [geojson.io](http://geojson.io/)
+    + Added names of route points to data attribute property "name"
+    + data attribute properties description and symbology removed from encoding
+
+**Markers**
++ Photos were taken along each route and labeled according to their route and sequence (e.g. R1P5)
++ Each photo taken was geotagged using an IPhone 13 and uploaded
++ Photos organized into appropriate directories 
++ Photos imported using ImportPhotos QGIS 3.16.1 Hannover plugin
++ GPS coordinates of each photo exported as geoJSON using ImportPhotos plugin
++ Attribute tables cleaned up and metric collections added as new field data
+
+
+**Anticipated Format**
++ Route and Marker data will be hosted in geoJSON forat for web-mapping
+
+**Additional Content**
++ Karl Raitz's historic route
 
 ## B. Medium for Delivery
 
