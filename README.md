@@ -1,8 +1,9 @@
 <!-- *************************************DRAFT******************************************* -->
-# Title
-Going the Extra Mile
-## Subtitle:
-Exploration of Walkability in Lexinton, KY
+
+# Going the Extra Mile
+## Exploration of Walkability in Lexinton, KY
+
+![Walkability](./Images/Walkability/R2E.JPG)
 
 topic: I want to design a map and narrative that explores the walkability index...
 question: to assess societal infrastructure impacts...
@@ -28,7 +29,7 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 The following map conducts it's examination on routes and their metrics in Lexington,KY. Through cartographic and user design, this map will appeal to those in city planning/urban safety and explore metrics pedestrians' value most during a walk. The user will be informed on the idea of walkability and what it means to them and their community. Those in city planning/urban safety will see walkability in a new perspective and hopefully be inspired to improve their designs.
 
 **Wireframe**
-![Alt text](Wireframe.PNG)
+![Wireframe](Wireframe.PNG)
 
 # II. Methodology 
 
