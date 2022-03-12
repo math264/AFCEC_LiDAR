@@ -3,7 +3,7 @@
 # Going the Extra Mile
 ## Exploration of Walkability in Lexinton, KY
 
-![Walkability](./Images/Walkability/R2E.JPG)
+![Walkability](./Images/cover_photo.jpg)
 
 topic: I want to design a map and narrative that explores the walkability index...
 question: to assess societal infrastructure impacts...
