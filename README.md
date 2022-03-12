@@ -11,13 +11,13 @@ motivation: and how we can re-define walkability to promote better health and su
 # Table of Contents
 + [Introduction](#I-Introduction)
 + [Methodology](#II-Methodology)
-+ [Data](##Data)
-+ [Medium for Delivery](##B-Medium-for-Delivery)
-+ [Application Layout](##C-Application-Layout)
-+ [Thematic Representation](##D-Thematic-Representation)
-+ [User Interaction](##E-User-Interaction)
-+ [Aesthetics and Design](##F-Aesthetics-and-Design)
-+ [Conclusion](##G-Conclusion)
++ [Data](#A-Data)
++ [Medium for Delivery](#B-Medium-for-Delivery)
++ [Application Layout](#C-Application-Layout)
++ [Thematic Representation](#D-Thematic-Representation)
++ [User Interaction](#E-User-Interaction)
++ [Aesthetics and Design](#F-Aesthetics-and-Design)
++ [Conclusion](#G-Conclusion)
 
 # I. Introduction
 
