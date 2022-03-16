@@ -85,9 +85,17 @@ The map is a web browser-based application accessible across mobile and desktop 
 
 ## C. Application Layout
 
+**Layout Across Devices**
+![Layout-example](./Images/interaction.jpeg)
+
+
 ## D. Thematic Representation
 
+The data used will be visually represented in a series of points and lines where the points will be proportionally symbolized according to walkability metrics. The size of the proportional symbol will likely encode average ratings of either aesthetics or safety.
+
 ## E. User Interaction
+
+The user interaction will be simple and straightforward. Of to one side will be an informative panel that will enable the user to scroll through the project's write-up and metadata. Considering the data will be visually represented as points and lines, basic interactions such as panning and zooming are likely. The proportional markers containing the walkability metrics and photos would work well paired with a click event listener triggering a popup. Each marker popup would show the walkability metrics and associated photo.
 
 ## F. Aesthetics and Design Considerations
 
