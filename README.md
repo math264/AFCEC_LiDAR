@@ -99,5 +99,8 @@ The user interaction will be simple and straightforward. Of to one side will be 
 
 ## F. Aesthetics and Design Considerations
 
+The basemap and data background should be informative, but not so detailed that the overall map becomes cluttered and the data overwhelmed. A simple monochrome basemap with road networks would suffice, but having satellite imagery to supplement marker photos would be ideal. Having satellite imagery on as the sole basemap would definitely crowd the data. Maybe a UI addition that enables toggling between basemaps could mitigate such issue.
+
 ## G. Conclusion
 
+Walkability is simple in nature, but is often muddled and molded to support each topic and authors' intent. Wether to bolster property appraisal values or to reasses urban design amidst urban sprawl, walkability as we know it is biased. This study paints walkability in a different light, whereas its defined by route rather than area or region. Inspired by ground-truth data, new metrics were compiled through a pedestrian's eyes. Pedestrian to pedestrian, these metrics will rarely change as they are inherent in each route's aesthetics and safety.
