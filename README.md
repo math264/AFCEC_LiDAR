@@ -11,7 +11,7 @@ motivation: and how we can re-define walkability to promote better health and su
 
 # Table of Contents
 + [Introduction](#I-Introduction)
-+ [Introduction](#I-Introduction)
++ [Literature Assessment](#II-Literature-Assessment)
 + [Methodology](#III-Methodology)
 + [Data](#A-Data)
 + [Medium for Delivery](#B-Medium-for-Delivery)
@@ -32,7 +32,23 @@ The following map conducts it's examination on routes and metrics in Lexington,K
 **Wireframe**
 ![Wireframe](Wireframe.PNG)
 
-# II. Literature Assessment
+# II. Walkability Assessment
+
+Walkability is a concept that is not unlike a blank canvas, requiring creativity, purpose, and inspiration. It's ability to be molded into an index with background and intent is profound, enabling application into a variety of topics. However, having an open layout such as this leaves room for biases and nuances that muddle the purpose of walkability. The core of walkability resides with the metrics used. The metrics defined resemble the purpose and intent of the index being created, therefore retaining any biases that follow. What follows are two example that emphasize the importance of metrics and their control of walkability indexes.
+
+The EPA has a series of interactive maps concerning location efficiency titled *Smart Location Mapping*. One particular map focused on downtown Chicago emits ambiguity through a lack of metric breakdown.
+
+![EPA Smart Location Mapping](/Images/Walkability/Chicago_WI.JPG)
+
+After referencing the legend, we see that downtown Chicago is much more walkable than any surrounding suburbs and rural areas. The potential issue here is that through it's broad application, it leaves the walkability index used here open to bias through subjective means. Downtown Chicago might be more walkable in terms of distance, but what about comfort level and safety? If the index metrics focused on, say crime rate and cleanliness, I doubt anyone would suggest Chicago is more walkable in that regard. The use of metrics without pedestrian consideration inevitably introduces subjectivity as the user attemps to fill in the ambiguity. 
+
+A useful interactive website [Walk Score](https://www.walkscore.com/) brings walkability and location efficiency to your finger tips! Search any address or area and find a walk score associated with each search. This interactive web-map is a great concept, but exploring *Walk Score* really opened my eyes on walkability and inpired me of emphasize the importance of metrics. After any search, clicking on the walk score will open up a dialogue box that breaks down the metrics that create the score. Below is an example of the metrics used to create score for *Walk Score*.
+
+![Walk Score metrics](/Images/Walkability/Walk_Score.JPG)
+
+The metrics are essentially amenities and local hotspots that can potentially facilitate more walking through close proximity. Makes sense, right? Everyone has walked to a local restaurant/bar, stores, and parks to get out and enjoy life. However, these metrics define walkability based on the motivated potential of walkability.
+
+In these two instances we clarify that without supportive metrics, walkability indexes are succeptible to bias and subjectivity. I propose that a change in perspective can effectively reduce the aforementioned nuances. 
 
 # III. Methodology 
 
@@ -65,6 +81,8 @@ After collection, data was processed into routes and markers...
 + Converted GPX file into GeoJSON using [geojson.io](http://geojson.io/)
     + Added names of route points to data attribute property "name"
     + data attribute properties description and symbology removed from encoding
+
+![GeoJSONs](./Images/Walkability/geojson_example.JPG)
 
 **Markers**
 + Photos were taken along each route and labeled according to their route and sequence (e.g. R1P5)
