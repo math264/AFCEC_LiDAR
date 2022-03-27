@@ -11,7 +11,7 @@ motivation: and how we can re-define walkability to promote better health and su
 
 # Table of Contents
 + [Introduction](#I-Introduction)
-+ [Literature Assessment](#II-Literature-Assessment)
++ [Walkability Assessment](#II-Walkability-Assessment)
 + [Methodology](#III-Methodology)
 + [Data](#A-Data)
 + [Medium for Delivery](#B-Medium-for-Delivery)
