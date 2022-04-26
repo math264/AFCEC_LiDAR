@@ -5,6 +5,15 @@
     padding: 0;
   }
 
+  h1 {
+    font-weight: 800;
+    font-family: "Hind Siliguri";
+    color: #0535a4;
+  }
+
+  img {vertical-align: middle;}
+
+/* IDs */
   #map {
     position: absolute;
     width: 100%;
@@ -17,12 +26,6 @@
     top: 11px;
     left: 52px;
     z-index: 1000; /* place above map */
-  }
-
-  h1 {
-    font-weight: 800;
-    font-family: "Hind Siliguri";
-    color: #0535a4;
   }
 
   #info-button {
@@ -62,6 +65,8 @@
     /* Cursor change on hover -- doesn't work on touch screensn */
     cursor: crosshair;
   }
+
+  * {box-sizing:border-box}
 
   #ui {
     position: absolute;
@@ -113,6 +118,8 @@
     bottom: -10px;
   }
 
+  /* Classes */
+  /* .mySlides {display: none} */
   /* Next & previous buttons */
   .prev,
   .next {
@@ -179,21 +186,6 @@
   .active,
   .dot:hover {
     background-color: #717171;
-  }
-
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-
-  @keyframes fade {
-    from {
-      opacity: 0.4;
-    }
-    to {
-      opacity: 1;
-    }
   }
 
   /* MOBILE-FRIENDLY SETTINGS */
