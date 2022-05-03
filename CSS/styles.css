@@ -6,9 +6,20 @@
   }
 
   h1 {
-    font-weight: 800;
+    font-weight: 1600;
     font-family: "Hind Siliguri";
     color: #0535a4;
+  }
+
+  h2 {
+    font-weight: 800;
+    font-family: "Hind Siliguri";
+    color: #ffffff;
+    text-emphasis: italic;
+  }
+
+  a {
+    text-shadow: 2px 2px #ffffff;
   }
 
   img {vertical-align: middle;}
@@ -22,12 +33,12 @@
   }
 
   #header {
-    position: fixed;
+    position: absolute;
     top: 11px;
     left: 52px;
     z-index: 1000; /* place above map */
   }
-
+/* Buttons */
   #info-button {
     padding: 8px 5px;
     font-size: 0.9em;
@@ -38,7 +49,7 @@
     color: #ffffff;
     border-radius: 5px;
     /* Position is fixed next to the zoom bar */
-    position: fixed;
+    position: absolute;
     top: 11px;
     right: 150px;
     /* Draw it on top of all elements */
@@ -57,7 +68,7 @@
     color: #ffffff;
     border-radius: 5px;
     /* Position is fixed next to the zoom bar */
-    position: fixed;
+    position: absolute;
     top: 11px;
     right: 52px;
     /* Draw it on top of all elements */
@@ -76,36 +87,46 @@
     padding: 6px 12px;
     background: #5d7dc3;
   }
-
+/* FOOTER & Transbox */
   #footer {
     width: 100%;
-    background: #7c9ccc;
-    color: rgba(20, 20, 20, 0.8);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
     height: 0px;
     padding: 0px;
-    /* display below the button to allow clicking if overlay covers screen */
     z-index: 9000;
     position: absolute;
-    /* 
-  Hide the footer be default. This should not contain too much information. Like to a new page for extended content.
-  */
-    bottom: -10px;
     /* If too much is included, enable scroll */
     overflow: scroll;
+    background-image: url(/Images/cover_photo.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%;
   }
 
-  #footer div {
-    padding: 10px;
+  div.transbox {
+    margin: 30px;
+    height: 50%;
+    width: 95%;
+    background-color: #ffffff;
+    border: 2px solid #045a8d;
+    opacity: 0.7;
+    padding: 25px;
   }
 
-  #footer h1 {
-    font-size: 1.3em;
-    margin: 0 0 5px 0;
+  div.transbox h1 {
+    margin: 2%;
+    font-weight: bold;
+    color: #045a8d;
+    text-align: center;
+  }
+
+  div.transbox p {
+    margin: 2%;
+    color: #000000;
   }
 
   /* Slideshow container */
-  #slideshow-container {
+  #slideshow {
     width: 100%;
     background: #787878;
     color: rgba(20, 20, 20, 0.8);
@@ -119,7 +140,13 @@
   }
 
   /* Classes */
-  /* .mySlides {display: none} */
+  .transbox {
+    /* margin: 30px; */
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5%;
+  }
+  .mySlides {display: none}
   /* Next & previous buttons */
   .prev,
   .next {
@@ -159,7 +186,7 @@
     width: 100%;
     text-align: center;
   }
-
+  
   /* Number text (1/3 etc) */
   .numbertext {
     color: #f2f2f2;

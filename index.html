@@ -38,57 +38,7 @@
 
   <body>
     <!-- MAP CONTAINER -->
-    <div id="map"></div>
-
-    <!-- Info button -->
-    <button id="info-button" onclick="myInfo()">Walkability</button>
-    <div id="footer">
-      <div>
-        <img
-          src="https://uky-gis.github.io/graphics/logo-color-400px.png"
-          class="footer-img"
-        />
-        <h1>U.S. Median Gross Rent By County</h1>
-        Data obtained through the American Fact Finder (<a
-          href="http://factfinder.census.gov/"
-          >factfinder.census.gov</a
-        >); 2010 Census, SF1. Map created by
-        <a href="https://github.com/math264">math264</a>, Fall 2020.
-      </div>
-    </div>
-
-    <!-- Slideshow button -->
-    <button id="pic-button" onclick="pics()">Slideshow</button>
-    <!-- Slideshow -->
-    <div id="slideshow-container">
-      <div class="mySlides">
-        <div class="numbertext">1 / 3</div>
-        <img src="/Images/Walkability/Route_1/R1P1.JPG" style="width:50%">
-        <div class="text">Caption Text</div>
-      </div>
-      
-      <div class="mySlides">
-        <div class="numbertext">2 / 3</div>
-        <img src="img_snow_wide.jpg" style="width:50%">
-        <div class="text">Caption Two</div>
-      </div>
-      
-      <div class="mySlides">
-        <div class="numbertext">3 / 3</div>
-        <img src="/Images/Walkability/Route_1/R1P1.JPG" style="width:50%">
-        <div class="text">Caption Three</div>
-
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-    </div>
-    <br>
-
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
-
+  <div id="map"> 
     <!-- Header -->
     <div id="header">
       <header class="row">
@@ -100,9 +50,98 @@
 
     <!-- LEGEND CONTAINER -->
     <div id="ui">
-      <h3 class="text-light">Austin City Districts</h3>
+      <h3 class="text-light">Lexington Routes</h3>
       <h4 class="text-light">(number of traffic signals)</h4>
       <ul id="legend-list"></ul>
+    </div>
+  </div>
+
+    <!-- Info button -->
+    <button id="info-button" onclick="myInfo()">Walkability</button>
+    <!-- Footer -->
+    <div id="footer">
+      <div class="transbox">
+        <h1>What is Walkability and How Is It Defined?</h1>
+        <p>Walkability is an important urban design concept that is mutually beneficial to the well-being of communities and their efficiency. 
+          Walking enables urban planning to not only perpetuate sustainable transportation and its reduced emissions, but promote healthy and livable communities. 
+          Initially adopted in response to increased population densities and urban sprawl, walkability developed into a multi-faceted solution in health, sustainability, and livability.
+          Urban planning strives to faciliate more walking into our lifestyle, creating the concept of walkability. I believe walkability is a skeletal framework that leaves the 
+          definition up to interpretation. Walkability is effectively driven by categories, or metrics, which are easily dictated by the topic and author.
+        </p>
+      </div>
+      <div class="transbox">
+        <h1>Walkability Metrics</h1>
+        <p>The concept of walkability is purely metric driven, which are easily influenced through the map's or author's intent.
+          There are numerous websites that create their own walkability indeces, but promotional subtleties through intent and amenities usually follow.
+          Walkability is commonly used to categorize and extol communities in the interest of raising property appraisals. Nothing wrong with it,
+          but it deviates from the fundamentals of walking. Where typical metrics focus on amenities and their proximity to promote walking,
+          the metrics used in this map consider pedestrian values.
+          <br>
+          Metrics used to rate Walkability:
+          <ul>
+            <li>Cleanliness</li>
+            <li>Atmosphere</li>
+            <li>Interaction</li>
+            <li>Sidewalk</li>
+            <li>Traffic Volume</li>
+            <li>Visibility</li>
+            <li>Pedestrian Design</li>
+          </ul>
+        </p>
+      </div>
+      <div class="transbox">
+        <h1>Ground-truth Data</h1>
+        <p>Walkability is an important urban design concept that is mutually beneficial to the well-being of communities and their efficiency. 
+          Walking enables urban planning to not only perpetuate sustainable transportation and its reduced emissions, but promote healthy and livable communities. 
+          Initially adopted in response to increased population densities and urban sprawl, walkability developed into a multi-faceted solution in health, sustainability, and livability.
+        </p>
+      </div>
+
+      <!-- Associations -->
+      <div>
+        <img
+          src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+          class="footer-img"
+        />
+        <h1 style="text-shadow: 2px 2px #ffffff;">U.S. Median Gross Rent By County</h1>
+        Data obtained through the American Fact Finder (<a
+          href="http://factfinder.census.gov/"
+          >factfinder.census.gov</a
+        >); 2010 Census, SF1. Map created by
+        <a href="https://github.com/math264">math264</a>, Fall 2020.
+      </div>
+    </div>
+
+    <!-- Slideshow button -->
+    <button id="pic-button" onclick="pics()">Slideshow</button>
+    <!-- Slideshow -->
+    <div id="slideshow">
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="/Images/Walkability/Route_1/R1P1.JPG" style="width: 100px; height: 200px">
+        <div class="text">Caption Text</div>
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="img_snow_wide.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="/Images/Walkability/Route_1/R1P1.JPG" style="width:100%; height: 20%">
+        <div class="text">Caption Three</div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
     </div>
 
     <!-- LEAFLET.js -->
@@ -142,10 +181,10 @@
         var b = document.getElementById("info-button");
         if (clicked) {
           b.style.background = "#045a8d"; // indigo blue
-          a.style.height = "0px"; // no footer height
+          a.style.height = "0vh"; // no footer height
         } else {
           b.style.background = "#5D7DC3"; // periwinkle gray
-          a.style.height = "33vh"; // footer 33% of viewport height
+          a.style.height = "100vh"; // footer 33% of viewport height
         }
         clicked = !clicked;
       }
@@ -155,7 +194,7 @@
       function pics() {
         // create button that changes color on click
         // create a footer overlay that displays 33% of the current viewport height
-        var c = document.getElementById("slideshow-container");
+        var c = document.getElementById("slideshow");
         var d = document.getElementById("pic-button");
         if (clicked) {
           d.style.background = "#045a8d"; // indigo blue
