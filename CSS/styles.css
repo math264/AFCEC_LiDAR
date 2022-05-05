@@ -1,28 +1,29 @@
 /*LOADING Elements, IDs, & Classes*/
-  body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  h1 {
-    font-weight: 1600;
-    font-family: "Hind Siliguri";
-    color: #045a8d;
-  }
+h1 {
+  font-weight: 1600;
+  font-family: 'Hind Siliguri';
+  color: #045a8d;
+}
 
-  h2 {
-    font-weight: 800;
-    font-family: "Hind Siliguri";
-    color: #ffffff;
-    text-emphasis: italic;
-  }
+h2 {
+  font-weight: 800;
+  font-family: 'Hind Siliguri';
+  color: #ffffff;
+  text-emphasis: italic;
+}
 
-  a {
-    text-shadow: 2px 2px #ffffff;
-  }
+a {
+  text-shadow: 2px 2px #ffffff;
+}
 
-  img {vertical-align: middle;}
+img {
+  vertical-align: middle};
 
 /* IDs */
   #map {
