@@ -1,44 +1,33 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
 
-    <title>Exploration of Walkability in Lexington, KY</title>
-    <!-- Loading Styles -->
-    <!-- IMPORTING StyleSheets Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Goldman&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Goldman&family=Hind+Siliguri:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <!-- Leaflet CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-      crossorigin=""
-    />
+<head>
+  <meta charset="utf-8" />
 
-    <!-- LOAD CSS External File -->
-    <link rel="stylesheet" href="/CSS/styles.css">
-  </head>
+  <title>Exploration of Walkability in Lexington, KY</title>
+  <!-- Loading Styles -->
+  <!-- IMPORTING StyleSheets Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Hind+Siliguri:wght@300&display=swap"
+    rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
 
-  <body>
-    <!-- MAP CONTAINER -->
-  <div id="map"> 
+  <!-- LOAD CSS External File -->
+  <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+
+<body>
+  <!-- MAP CONTAINER -->
+  <div id="map">
     <!-- Header -->
     <div id="header">
       <header class="row">
@@ -56,183 +45,198 @@
     </div>
   </div>
 
-    <!-- Info button -->
-    <button id="info-button" onclick="myInfo()">Walkability</button>
-    <!-- Footer -->
-    <div id="footer">
-      <div class="transbox">
-        <h1>What is Walkability and How Is It Defined?</h1>
-        <p>Walkability is an important urban design concept that is mutually beneficial to the well-being of communities and their efficiency. 
-          Walking enables urban planning to not only perpetuate sustainable transportation and its reduced emissions, but promote healthy and livable communities. 
-          Initially adopted in response to increased population densities and urban sprawl, walkability developed into a multi-faceted solution in health, sustainability, and livability.
-          Urban planning strives to faciliate more walking into our lifestyle, creating the concept of walkability. I believe walkability is a skeletal framework that leaves the 
-          definition up to interpretation. Walkability is effectively driven by categories, or metrics, which are easily dictated by the topic and author.
-        </p>
-      </div>
-      <div class="transbox">
-        <h1>Walkability Metrics</h1>
-        <p>The concept of walkability is purely metric driven, which are easily influenced through the map's or author's intent.
-          There are numerous websites that create their own walkability indeces, but promotional subtleties through intent and amenities usually follow.
-          Walkability is commonly used to categorize and extol communities in the interest of raising property appraisals. Nothing wrong with it,
-          but it deviates from the fundamentals of walking. Where typical metrics focus on amenities and their proximity to promote walking,
-          the metrics used in this map consider pedestrian values.
-          <br>
-          Metrics used to rate Walkability:
-          <ul>
-            <li>Cleanliness</li>
-            <li>Atmosphere</li>
-            <li>Interaction</li>
-            <li>Sidewalk</li>
-            <li>Traffic Volume</li>
-            <li>Visibility</li>
-            <li>Pedestrian Design</li>
-          </ul>
-        </p>
-      </div>
-      <div class="transbox">
-        <h1>Ground-truth Data</h1>
-        <p>Walkability is an important urban design concept that is mutually beneficial to the well-being of communities and their efficiency. 
-          Walking enables urban planning to not only perpetuate sustainable transportation and its reduced emissions, but promote healthy and livable communities. 
-          Initially adopted in response to increased population densities and urban sprawl, walkability developed into a multi-faceted solution in health, sustainability, and livability.
-        </p>
-      </div>
+  <!-- Info button -->
+  <!-- <button id="info-button" onclick="myInfo()">Walkability</button> -->
+  <!-- Footer -->
+  <!-- <div id="footer">
+    <div class="transbox">
+      <h1>What is Walkability and How Is It Defined?</h1>
+      <p>Walkability is an important urban design concept that is mutually beneficial to the well-being of communities
+        and their efficiency.
+        Walking enables urban planning to not only perpetuate sustainable transportation and its reduced emissions, but
+        promote healthy and livable communities.
+        Initially adopted in response to increased population densities and urban sprawl, walkability developed into a
+        multi-faceted solution in health, sustainability, and livability.
+        Urban planning strives to faciliate more walking into our lifestyle, creating the concept of walkability. I
+        believe walkability is a skeletal framework that leaves the
+        definition up to interpretation. Walkability is effectively driven by categories, or metrics, which are easily
+        dictated by the topic and author.
+      </p>
+    </div>
+    <div class="transbox">
+      <h1>Walkability Metrics</h1>
+      <p>The concept of walkability is purely metric driven, which are easily influenced through the map's or author's
+        intent.
+        There are numerous websites that create their own walkability indeces, but promotional subtleties through intent
+        and amenities usually follow.
+        Walkability is commonly used to categorize and extol communities in the interest of raising property appraisals.
+        Nothing wrong with it,
+        but it deviates from the fundamentals of walking. Where typical metrics focus on amenities and their proximity
+        to promote walking,
+        the metrics used in this map consider pedestrian values.
+        <br>
+        Metrics used to rate Walkability:
+      <ul>
+        <li>Cleanliness</li>
+        <li>Atmosphere</li>
+        <li>Interaction</li>
+        <li>Sidewalk</li>
+        <li>Traffic Volume</li>
+        <li>Visibility</li>
+        <li>Pedestrian Design</li>
+      </ul>
+      </p>
+    </div>
+    <div class="transbox">
+      <h1>Ground-truth Data</h1>
+      <p>Walkability is an important urban design concept that is mutually beneficial to the well-being of communities
+        and their efficiency.
+        Walking enables urban planning to not only perpetuate sustainable transportation and its reduced emissions, but
+        promote healthy and livable communities.
+        Initially adopted in response to increased population densities and urban sprawl, walkability developed into a
+        multi-faceted solution in health, sustainability, and livability.
+      </p>
+    </div> -->
 
-      <!-- Associations -->
-      <div>
-        <img
-          src="https://uky-gis.github.io/graphics/logo-color-400px.png"
-          class="footer-img"
-        />
-        <h1 style="text-shadow: 2px 2px #ffffff;">U.S. Median Gross Rent By County</h1>
-        Data obtained through the American Fact Finder (<a
-          href="http://factfinder.census.gov/"
-          >factfinder.census.gov</a
-        >); 2010 Census, SF1. Map created by
-        <a href="https://github.com/math264">math264</a>, Fall 2020.
-      </div>
+  <!-- Associations -->
+  <!-- <div>
+      <img src="https://uky-gis.github.io/graphics/logo-color-400px.png" class="footer-img" />
+      <h1 style="text-shadow: 2px 2px #ffffff;">U.S. Median Gross Rent By County</h1>
+      Data obtained through the American Fact Finder (<a
+        href="http://factfinder.census.gov/">factfinder.census.gov</a>);
+      2010 Census, SF1. Map created by
+      <a href="https://github.com/math264">math264</a>, Fall 2020.
+    </div>
+  </div> -->
+
+  <!-- Slideshow button -->
+  <button id="pic-button">Slideshow</button>
+  <!-- Slideshow -->
+  <div id="slideshow">
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+      <img src="/Images/Walkability/Route_1/R1P1.JPG">
+      <div class="text">Caption Text</div>
+    </div>
+  </div>
+  <!-- <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+      <img src="img_snow_wide.jpg">
+      <div class="text">Caption Two</div>
     </div>
 
-    <!-- Slideshow button -->
-    <button id="pic-button" onclick="pics()">Slideshow</button>
-    <!-- Slideshow -->
-    <div id="slideshow">
-      <div class="mySlides">
-        <div class="numbertext">1 / 3</div>
-        <img src="/Images/Walkability/Route_1/R1P1.JPG" style="width: 100px; height: 200px">
-        <div class="text">Caption Text</div>
-      </div>
-      
-      <div class="mySlides">
-        <div class="numbertext">2 / 3</div>
-        <img src="img_snow_wide.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
-      </div>
-      
-      <div class="mySlides">
-        <div class="numbertext">3 / 3</div>
-        <img src="/Images/Walkability/Route_1/R1P1.JPG" style="width:100%; height: 20%">
-        <div class="text">Caption Three</div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+      <img src="/Images/Walkability/Route_1/R1P1.JPG">
+      <div class="text">Caption Three</div>
 
       <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-    </div>
-    <br>
+      <a class="next" onclick="plusSlides(1)">❯</a> -->
+  <!-- </div>
+  </div> -->
 
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div>
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> -->
 
-    <!-- LEAFLET.js -->
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="libs/Leaflet.markercluster/leaflet.markercluster.js"></script>
-    <!-- D3.js -->
-    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
-    <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- LEAFLET.js -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  <!-- <script src="libs/Leaflet.markercluster/leaflet.markercluster.js"></script> -->
+  <!-- D3.js -->
+  <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-    <script>
-      // map options
-      const options = {
-        center: [38.04, -84.5],
-        zoom: 14,
-      };
-      // instantiate Leaflet map
-      const map = L.map("map", options);
+  <script>
+    // map options
+    const options = {
+      center: [38.04, -84.5],
+      zoom: 14,
+    };
+    // instantiate Leaflet map
+    const map = L.map("map", options);
 
-      // add CARTO voyager tiles with no labels
-      L.tileLayer(
-        "https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager_nolabels/{z}/{x}/{y}.png",
-        {
-          maxZoom: 18,
-          attribution:
-            '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>',
-        }
-      ).addTo(map);
-
-      // use D3 fetch to request data with async requests
-      /* --------------- Toggle on/off info footer content ---------------  */
-      var clicked = false; // start with false condition
-      function myInfo() {
-        // create button that changes color on click
-        // create a footer overlay that displays 33% of the current viewport height
-        var a = document.getElementById("footer");
-        var b = document.getElementById("info-button");
-        if (clicked) {
-          b.style.background = "#045a8d"; // indigo blue
-          a.style.height = "0vh"; // no footer height
-        } else {
-          b.style.background = "#5D7DC3"; // periwinkle gray
-          a.style.height = "100vh"; // footer 33% of viewport height
-        }
-        clicked = !clicked;
+    // add CARTO voyager tiles with no labels
+    L.tileLayer(
+      "https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager_nolabels/{z}/{x}/{y}.png",
+      {
+        maxZoom: 18,
+        attribution:
+          '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>',
       }
+    ).addTo(map);
 
-      /* --------------- Toggle on/off slideshow button ---------------  */
-      var clicked = false; // start with false condition
-      function pics() {
-        // create button that changes color on click
-        // create a footer overlay that displays 33% of the current viewport height
-        var c = document.getElementById("slideshow");
-        var d = document.getElementById("pic-button");
-        if (clicked) {
-          d.style.background = "#045a8d"; // indigo blue
-          c.style.height = "0px"; // no footer height
-        } else {
-          d.style.background = "#5D7DC3"; // periwinkle gray
-          c.style.height = "33vh"; // footer 33% of viewport height
-        }
-        clicked = !clicked;
+    // use D3 fetch to request data with async requests
+    /* --------------- Toggle on/off info footer content ---------------  */
+    var clicked = false; // start with false condition
+    function myInfo() {
+      // create button that changes color on click
+      // create a footer overlay that displays 33% of the current viewport height
+      var a = document.getElementById("footer");
+      var b = document.getElementById("info-button");
+      if (clicked) {
+        b.style.background = "#045a8d"; // indigo blue
+        a.style.height = "0vh"; // no footer height
+      } else {
+        b.style.background = "#5D7DC3"; // periwinkle gray
+        a.style.height = "100vh"; // footer 33% of viewport height
       }
+      clicked = !clicked;
+    }
 
-      // Slideshow
-      let slideIndex = 1;
-      showSlides(slideIndex);
+    /* --------------- Toggle on/off slideshow button ---------------  */
+    var slideShowClicked = false; // start with false condition
+    var slideSlowContainer = $("#slideshow");
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
+    $('#pic-button').click(function () {
+      // create button that changes color on click
+      // create a footer overlay that displays 33% of the current viewport height
+      if (slideShowClicked == true) {
+        console.log('slide click true')
+        // d.style.background = "#045a8d"; // indigo blue
+        // slideSlowContainer.style.height = "0px"; // no footer height
+        slideSlowContainer.css('display', 'none');
+        slideShowClicked = false;
+      } else {
+        console.log('slide click false')
+        // d.style.background = "#5D7DC3"; // periwinkle gray
+        // slideSlowContainer.style.height = "33vh"; // footer 33% of viewport height
+        slideSlowContainer.css('display', 'block');
+        slideShowClicked = true;
       }
+    })
 
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
 
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
+    // Slideshow
+    let slideIndex = 1;
+    // showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-    </script>
-    </body>
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+</body>
+
 </html>
