@@ -1,1 +1,0 @@
-+ Tsiompras, A. B., & Photis, Y. N. (2017). What matters when it comes to “Walk and the city”? Defining a weighted GIS-based walkability index. Transportation Research Procedia, 24, 523–530. https://doi.org/10.1016/j.trpro.2017.06.001

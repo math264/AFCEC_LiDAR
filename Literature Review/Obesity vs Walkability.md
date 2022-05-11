@@ -1,1 +1,0 @@
-+ Patil, G. R., & Sharma, G. (2021). Overweight/obesity relationship with travel patterns, socioeconomic characteristics, and built environment. Journal of Transport & Health, 22, 101240. https://doi.org/10.1016/j.jth.2021.101240
