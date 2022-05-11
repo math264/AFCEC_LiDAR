@@ -1,0 +1,773 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P1.JPG",
+        "Date": "2022-02-20",
+        "Time": "13:23:47",
+        "Lon": -84.42469722222222,
+        "Lat": 38.026577777777774,
+        "Azimuth": 227.5389404296875,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P1.JPG",
+        "Images": "<img src = \"./Route_1/R1P1.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 4,
+        "Atmosphere": 5,
+        "Interaction": 1,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 5,
+        "Traffic Volume": 5,
+        "Visibility": 3,
+        "Design": 4,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.42469722222222, 38.026577777777774]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P2.JPG",
+        "Date": "2022-02-20",
+        "Time": "13:26:59",
+        "Lon": -84.42583333333334,
+        "Lat": 38.02568055555555,
+        "Azimuth": 260.9575805184603,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P2.JPG",
+        "Images": "<img src = \"./Route_1/R1P2.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 4,
+        "Atmosphere": 5,
+        "Interaction": 1,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 3,
+        "Traffic Volume": 4,
+        "Visibility": 5,
+        "Design": 3,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.42583333333334, 38.02568055555555]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P3.JPG",
+        "Date": "2022-02-20",
+        "Time": "13:34:22",
+        "Lon": -84.425575,
+        "Lat": 38.024588888888886,
+        "Azimuth": 157.83966056275122,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P3.JPG",
+        "Images": "<img src = \"./Route_1/R1P3.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 4,
+        "Atmosphere": 3,
+        "Interaction": 1,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 4,
+        "Traffic Volume": 3,
+        "Visibility": 3,
+        "Design": 4,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.425575, 38.024588888888886]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P4.JPG",
+        "Date": "2022-02-20",
+        "Time": "13:42:29",
+        "Lon": -84.42423333333333,
+        "Lat": 38.02472222222222,
+        "Azimuth": 92.43403247631935,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P4.JPG",
+        "Images": "<img src = \"./Route_1/R1P4.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 4,
+        "Interaction": 1,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 4,
+        "Traffic Volume": 2,
+        "Visibility": 3,
+        "Design": 5,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.42423333333333, 38.02472222222222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P5.JPG",
+        "Date": "2022-02-20",
+        "Time": "13:51:16",
+        "Lon": -84.4229138888889,
+        "Lat": 38.02471944444444,
+        "Azimuth": 129.6490553954531,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P5.JPG",
+        "Images": "<img src = \"./Route_1/R1P5.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 5,
+        "Atmosphere": 4,
+        "Interaction": 2,
+        "Aesthetics Avg.": 4,
+        "Sidewalk": 3,
+        "Traffic Volume": 3,
+        "Visibility": 5,
+        "Design": 4,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4229138888889, 38.02471944444444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P6.JPG",
+        "Date": "2022-02-20",
+        "Time": "13:55:35",
+        "Lon": -84.42239444444445,
+        "Lat": 38.02461111111111,
+        "Azimuth": 182.54908732116428,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P6.JPG",
+        "Images": "<img src = \"./Route_1/R1P6.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 5,
+        "Atmosphere": 4,
+        "Interaction": 2,
+        "Aesthetics Avg.": 4,
+        "Sidewalk": 3,
+        "Traffic Volume": 3,
+        "Visibility": 2,
+        "Design": 3,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.42239444444445, 38.02461111111111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P7.JPG",
+        "Date": "2022-02-20",
+        "Time": "14:02:33",
+        "Lon": -84.420875,
+        "Lat": 38.0247,
+        "Azimuth": 80.57247931351517,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P7.JPG",
+        "Images": "<img src = \"./Route_1/R1P7.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 4,
+        "Atmosphere": 3,
+        "Interaction": 3,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 2,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 1,
+        "Safety Avg.": 3
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.420875, 38.0247] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P8.JPG",
+        "Date": "2022-02-20",
+        "Time": "14:13:01",
+        "Lon": -84.42009722222222,
+        "Lat": 38.02515277777778,
+        "Azimuth": 72.78378295898438,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P8.JPG",
+        "Images": "<img src = \"./Route_1/R1P8.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 5,
+        "Atmosphere": 4,
+        "Interaction": 4,
+        "Aesthetics Avg.": 4,
+        "Sidewalk": 4,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 5,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.42009722222222, 38.02515277777778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R1P9.JPG",
+        "Date": "2022-02-20",
+        "Time": "14:18:43",
+        "Lon": -84.41921944444445,
+        "Lat": 38.02567222222222,
+        "Azimuth": 67.045318610536,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_1\\R1P9.JPG",
+        "Images": "<img src = \"./Route_1/R1P9.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 5,
+        "Atmosphere": 4,
+        "Interaction": 4,
+        "Aesthetics Avg.": 4,
+        "Sidewalk": 1,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 2,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41921944444445, 38.02567222222222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P1.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:28:25",
+        "Lon": -84.41398611111111,
+        "Lat": 38.01971388888889,
+        "Azimuth": 281.6235807860262,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P1.JPG",
+        "Timestamp": "2022-02-20T15:28:25",
+        "Images": "<img src = \"./Route_2/R2P1.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 3,
+        "Interaction": 3,
+        "Aesthestics Avg.": 3,
+        "Sidewalk": 3,
+        "Traffic Volume": 4,
+        "Visibility": 3,
+        "Design": 3,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41398611111111, 38.01971388888889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P10.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:59:10",
+        "Lon": -84.41711388888889,
+        "Lat": 38.02182777777778,
+        "Azimuth": 87.49166873911962,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P10.JPG",
+        "Timestamp": "2022-02-20T15:59:10",
+        "Images": "<img src = \"./Route_2/R2P10.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 2,
+        "Interaction": 1,
+        "Aesthestics Avg.": 2,
+        "Sidewalk": 1,
+        "Traffic Volume": 3,
+        "Visibility": 2,
+        "Design": 1,
+        "Safety Avg.": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41711388888889, 38.02182777777778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P11.JPG",
+        "Date": "2022-02-20",
+        "Time": "16:01:27",
+        "Lon": -84.41670277777779,
+        "Lat": 38.021816666666666,
+        "Azimuth": 79.1572799332499,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P11.JPG",
+        "Timestamp": "2022-02-20T16:01:27",
+        "Images": "<img src = \"./Route_2/R2P11.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 4,
+        "Atmosphere": 3,
+        "Interaction": 3,
+        "Aesthestics Avg.": 3,
+        "Sidewalk": 1,
+        "Traffic Volume": 4,
+        "Visibility": 4,
+        "Design": 1,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41670277777779, 38.021816666666666]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P2.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:32:06",
+        "Lon": -84.41494722222222,
+        "Lat": 38.01949444444444,
+        "Azimuth": 217.37083444414822,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P2.JPG",
+        "Timestamp": "2022-02-20T15:32:06",
+        "Images": "<img src = \"./Route_2/R2P2.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 2,
+        "Atmosphere": 3,
+        "Interaction": 3,
+        "Aesthestics Avg.": 3,
+        "Sidewalk": 3,
+        "Traffic Volume": 3,
+        "Visibility": 2,
+        "Design": 3,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41494722222222, 38.01949444444444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P3.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:34:42",
+        "Lon": -84.41550555555555,
+        "Lat": 38.01898055555556,
+        "Azimuth": 207.752197265625,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P3.JPG",
+        "Timestamp": "2022-02-20T15:34:42",
+        "Images": "<img src = \"./Route_2/R2P3.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 2,
+        "Atmosphere": 2,
+        "Interaction": 4,
+        "Aesthestics Avg.": 3,
+        "Sidewalk": 3,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 3,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41550555555555, 38.01898055555556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P4.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:38:20",
+        "Lon": -84.41600833333334,
+        "Lat": 38.018525,
+        "Azimuth": 248.01512163050626,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P4.JPG",
+        "Timestamp": "2022-02-20T15:38:20",
+        "Images": "<img src = \"./Route_2/R2P4.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 2,
+        "Atmosphere": 3,
+        "Interaction": 4,
+        "Aesthestics Avg.": 3,
+        "Sidewalk": 1,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 1,
+        "Safety Avg.": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41600833333334, 38.018525]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P5.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:42:29",
+        "Lon": -84.41666388888889,
+        "Lat": 38.01908888888889,
+        "Azimuth": 314.94398496240603,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P5.JPG",
+        "Timestamp": "2022-02-20T15:42:29",
+        "Images": "<img src = \"./Route_2/R2P5.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 3,
+        "Interaction": 1,
+        "Aesthestics Avg.": 2,
+        "Sidewalk": 3,
+        "Traffic Volume": 1,
+        "Visibility": 4,
+        "Design": 4,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41666388888889, 38.01908888888889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P6.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:44:37",
+        "Lon": -84.41696111111112,
+        "Lat": 38.01947777777778,
+        "Azimuth": 349.2301943198804,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P6.JPG",
+        "Timestamp": "2022-02-20T15:44:37",
+        "Images": "<img src = \"./Route_2/R2P6.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 4,
+        "Atmosphere": 2,
+        "Interaction": 1,
+        "Aesthestics Avg.": 2,
+        "Sidewalk": 4,
+        "Traffic Volume": 2,
+        "Visibility": 4,
+        "Design": 2,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41696111111112, 38.01947777777778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P7.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:46:47",
+        "Lon": -84.41696111111112,
+        "Lat": 38.01966111111111,
+        "Azimuth": 319.635101010101,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P7.JPG",
+        "Timestamp": "2022-02-20T15:46:47",
+        "Images": "<img src = \"./Route_2/R2P7.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 3,
+        "Interaction": 1,
+        "Aesthestics Avg.": 2,
+        "Sidewalk": 4,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 4,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41696111111112, 38.01966111111111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P8.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:51:52",
+        "Lon": -84.41822777777779,
+        "Lat": 38.02061111111111,
+        "Azimuth": 346.9468690702087,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P8.JPG",
+        "Timestamp": "2022-02-20T15:51:52",
+        "Images": "<img src = \"./Route_2/R2P8.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 4,
+        "Atmosphere": 3,
+        "Interaction": 1,
+        "Aesthestics Avg.": 3,
+        "Sidewalk": 3,
+        "Traffic Volume": 3,
+        "Visibility": 2,
+        "Design": 1,
+        "Safety Avg.": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.41822777777779, 38.02061111111111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R2P9.JPG",
+        "Date": "2022-02-20",
+        "Time": "15:55:23",
+        "Lon": -84.418075,
+        "Lat": 38.020825,
+        "Azimuth": 38.149452203730036,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_2\\R2P9.JPG",
+        "Timestamp": "2022-02-20T15:55:23",
+        "Images": "<img src = \"./Route_2/R2P9.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 2,
+        "Atmosphere": 2,
+        "Interaction": 1,
+        "Aesthestics Avg.": 2,
+        "Sidewalk": 1,
+        "Traffic Volume": 3,
+        "Visibility": 2,
+        "Design": 1,
+        "Safety Avg.": 2
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.418075, 38.020825] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P1.JPG",
+        "Date": "2022-02-21",
+        "Time": "17:35:20",
+        "Lon": -84.49249166666667,
+        "Lat": 38.05210833333333,
+        "Azimuth": 127.58332824427481,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P1.JPG",
+        "Timestamp": "2022-02-21T17:35:20",
+        "Images": "<img src = \"./Route_3/R3P1.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 4,
+        "Atmosphere": 3,
+        "Interaction": 3,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 2,
+        "Traffic Volume": 4,
+        "Visibility": 4,
+        "Design": 3,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49249166666667, 38.05210833333333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P2.JPG",
+        "Date": "2022-02-21",
+        "Time": "17:37:41",
+        "Lon": -84.49212777777778,
+        "Lat": 38.052191666666666,
+        "Azimuth": 138.0032041012496,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P2.JPG",
+        "Timestamp": "2022-02-21T17:37:41",
+        "Images": "<img src = \"./Route_3/R3P2.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 2,
+        "Interaction": 2,
+        "Aesthetics Avg.": 2,
+        "Sidewalk": 2,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 2,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49212777777778, 38.052191666666666]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P3.JPG",
+        "Date": "2022-02-21",
+        "Time": "17:39:53",
+        "Lon": -84.49148611111112,
+        "Lat": 38.05178055555555,
+        "Azimuth": 142.73297116590055,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P3.JPG",
+        "Timestamp": "2022-02-21T17:39:53",
+        "Images": "<img src = \"./Route_3/R3P3.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 2,
+        "Interaction": 2,
+        "Aesthetics Avg.": 2,
+        "Sidewalk": 2,
+        "Traffic Volume": 3,
+        "Visibility": 3,
+        "Design": 2,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49148611111112, 38.05178055555555]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P4.JPG",
+        "Date": "2022-02-21",
+        "Time": "17:43:33",
+        "Lon": -84.49066944444445,
+        "Lat": 38.05090833333333,
+        "Azimuth": 222.2404938271605,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P4.JPG",
+        "Timestamp": "2022-02-21T17:43:33",
+        "Images": "<img src = \"./Route_3/R3P4.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 2,
+        "Atmosphere": 2,
+        "Interaction": 1,
+        "Aesthetics Avg.": 2,
+        "Sidewalk": 2,
+        "Traffic Volume": 3,
+        "Visibility": 2,
+        "Design": 2,
+        "Safety Avg.": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49066944444445, 38.05090833333333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P5.JPG",
+        "Date": "2022-02-21",
+        "Time": "17:45:44",
+        "Lon": -84.49158611111112,
+        "Lat": 38.050308333333334,
+        "Azimuth": 224.9430543572045,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P5.JPG",
+        "Timestamp": "2022-02-21T17:45:44",
+        "Images": "<img src = \"./Route_3/R3P5.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 3,
+        "Interaction": 2,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 3,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 4,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49158611111112, 38.050308333333334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P6.JPG",
+        "Date": "2022-02-21",
+        "Time": "17:48:58",
+        "Lon": -84.49253055555556,
+        "Lat": 38.04960555555555,
+        "Azimuth": 223.85498046875,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P6.JPG",
+        "Timestamp": "2022-02-21T17:48:58",
+        "Images": "<img src = \"./Route_3/R3P6.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 3,
+        "Interaction": 2,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 4,
+        "Traffic Volume": 3,
+        "Visibility": 3,
+        "Design": 4,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49253055555556, 38.04960555555555]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P7.JPG",
+        "Date": "2022-02-21",
+        "Time": "17:52:48",
+        "Lon": -84.49348333333333,
+        "Lat": 38.04911388888889,
+        "Azimuth": 222.87347391786903,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P7.JPG",
+        "Timestamp": "2022-02-21T17:52:48",
+        "Images": "<img src = \"./Route_3/R3P7.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 2,
+        "Atmosphere": 2,
+        "Interaction": 2,
+        "Aesthetics Avg.": 2,
+        "Sidewalk": 3,
+        "Traffic Volume": 3,
+        "Visibility": 2,
+        "Design": 4,
+        "Safety Avg.": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49348333333333, 38.04911388888889]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P8.JPG",
+        "Date": "2022-02-21",
+        "Time": "17:57:42",
+        "Lon": -84.49445277777778,
+        "Lat": 38.04830277777778,
+        "Azimuth": 216.0557707203718,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P8.JPG",
+        "Timestamp": "2022-02-21T17:57:42",
+        "Images": "<img src = \"./Route_3/R3P8.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 4,
+        "Interaction": 3,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 4,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 3,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49445277777778, 38.04830277777778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "R3P9.JPG",
+        "Date": "2022-02-21",
+        "Time": "18:01:15",
+        "Lon": -84.49550555555555,
+        "Lat": 38.04741388888889,
+        "Azimuth": 225.0928955078125,
+        "Path": "C:/Users/matho/Pictures/Walkability/Route_3\\R3P9.JPG",
+        "Timestamp": "2022-02-21T18:01:15",
+        "Images": "<img src = \"./Route_3/R3P9.JPG\" width=\"300\" height=\"225\"/>",
+        "Cleanliness": 3,
+        "Atmosphere": 4,
+        "Interaction": 3,
+        "Aesthetics Avg.": 3,
+        "Sidewalk": 4,
+        "Traffic Volume": 3,
+        "Visibility": 4,
+        "Design": 4,
+        "Safety Avg.": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.49550555555555, 38.04741388888889]
+      }
+    }
+  ]
+}
