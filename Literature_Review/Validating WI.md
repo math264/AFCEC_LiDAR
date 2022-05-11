@@ -1,0 +1,1 @@
++ Manaugh, K., & El-Geneidy, A. (2011). Validating walkability indices: How do different households respond to the walkability of their neighborhood? Transportation Research Part D: Transport and Environment, 16(4), 309–315. https://doi.org/10.1016/j.trd.2011.01.009
