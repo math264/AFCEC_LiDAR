@@ -32,8 +32,6 @@
     />
     <!-- LOAD CSS External File -->
     <link rel="stylesheet" href="/CSS/styles.css" />
-    <!-- LOAD Media CSS External File -->
-    <link rel="stylesheet" href="/CSS/screen.css" />
     <!-- Default Zoom for Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -45,10 +43,10 @@
         <div class="col">
           <h1>Exploration of Walkability in Lexington, KY</h1>
         </div>
-        <!-- Info button -->
+        <!-- Info buttons -->
         <button id="info-button">Walkability</button>
-        <!-- Slideshow button -->
-        <button id="slide-button">Slideshow</button>
+        <button id="metrics-button">Metrics</button>
+        <button id="data-button">Data</button>
       </header>
     </div>
 
@@ -57,15 +55,13 @@
 
     <!-- LEGEND CONTAINER -->
     <div id="ui">
-      <h3 class="text-light">Lexington Routes</h3>
-      <h4 class="text-light">(number of traffic signals)</h4>
-      <ul id="legend-list"></ul>
+      <h2>Walkability Data</h2>
     </div>
 
     <!-- Footer -->
     <div id="footer">
       <div class="transbox">
-        <h1>What is Walkability and How Is It Defined?</h1>
+        <h2>What is Walkability and How Is It Defined?</h2>
         <p>
           Walkability is an important urban design concept that is mutually
           beneficial to the well-being of communities and their efficiency.
@@ -81,37 +77,6 @@
           easily dictated by the topic and author.
         </p>
       </div>
-
-      <div class="transbox">
-        <h1>Walkability Metrics</h1>
-        <p>
-          The concept of walkability is purely metric driven, which are easily
-          influenced through the map's or author's intent. There are numerous
-          websites that create their own walkability indeces, but promotional
-          subtleties through intent and amenities usually follow. Walkability is
-          commonly used to categorize and extol communities in the interest of
-          raising property appraisals. Nothing wrong with it, but it deviates
-          from the fundamentals of walking. Where typical metrics focus on
-          amenities and their proximity to promote walking, the metrics used in
-          this map consider pedestrian values.
-          <br />
-          Metrics used to rate Walkability:
-        </p>
-      </div>
-
-      <div class="transbox">
-        <h1>Ground-truth Data</h1>
-        <p>
-          Walkability is an important urban design concept that is mutually
-          beneficial to the well-being of communities and their efficiency.
-          Walking enables urban planning to not only perpetuate sustainable
-          transportation and its reduced emissions, but promote healthy and
-          livable communities. Initially adopted in response to increased
-          population densities and urban sprawl, walkability developed into a
-          multi-faceted solution in health, sustainability, and livability.
-        </p>
-      </div>
-
       <!-- Associations -->
       <div>
         <img
@@ -128,38 +93,70 @@
         <a href="https://github.com/math264">math264</a>, Fall 2020.
       </div>
     </div>
-
-    <!-- Slideshow button -->
-    <button id="pic-button">Slideshow</button>
-    <!-- Slideshow -->
-    <!-- <div id="slideshow">
-    <div class="mySlides">
-      <div class="numbertext">1 / 3</div>
-      <img src="/Images/Walkability/Route_1/R1P1.JPG">
-      <div class="text">Caption Text</div>
+    <!-- Metrics -->
+    <div id="metrics">
+      <div class="transbox">
+        <h2>Walkability Metrics</h2>
+        <p>
+          The concept of walkability is purely metric driven, which are easily
+          influenced through the map's or author's intent. There are numerous
+          websites that create their own walkability indeces, but promotional
+          subtleties through intent and amenities usually follow. Walkability is
+          commonly used to categorize and extol communities in the interest of
+          raising property appraisals. Nothing wrong with it, but it deviates
+          from the fundamentals of walking. Where typical metrics focus on
+          amenities and their proximity to promote walking, the metrics used in
+          this map consider pedestrian values.
+          <br />
+          Metrics used to rate Walkability:
+        </p>
+      </div>
+      <!-- Associations -->
+      <div>
+        <img
+          src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+          class="footer-img"
+        />
+        <h1 style="text-shadow: 2px 2px #ffffff">
+          U.S. Median Gross Rent By County
+        </h1>
+        Data obtained through the American Fact Finder (<a
+          href="http://factfinder.census.gov/"
+          >factfinder.census.gov</a
+        >); 2010 Census, SF1. Map created by
+        <a href="https://github.com/math264">math264</a>, Fall 2020.
+      </div>
     </div>
-  </div> -->
-    <!-- <div class="mySlides">
-      <div class="numbertext">2 / 3</div>
-      <img src="img_snow_wide.jpg">
-      <div class="text">Caption Two</div>
+    <!-- Data -->
+    <div id="data">
+      <div class="transbox">
+        <h2>Ground-truth Data</h2>
+        <p>
+          Walkability is an important urban design concept that is mutually
+          beneficial to the well-being of communities and their efficiency.
+          Walking enables urban planning to not only perpetuate sustainable
+          transportation and its reduced emissions, but promote healthy and
+          livable communities. Initially adopted in response to increased
+          population densities and urban sprawl, walkability developed into a
+          multi-faceted solution in health, sustainability, and livability.
+        </p>
+      </div>
+      <!-- Associations -->
+      <div>
+        <img
+          src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+          class="footer-img"
+        />
+        <h1 style="text-shadow: 2px 2px #ffffff">
+          U.S. Median Gross Rent By County
+        </h1>
+        Data obtained through the American Fact Finder (<a
+          href="http://factfinder.census.gov/"
+          >factfinder.census.gov</a
+        >); 2010 Census, SF1. Map created by
+        <a href="https://github.com/math264">math264</a>, Fall 2020.
+      </div>
     </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 3</div>
-      <img src="/Images/Walkability/Route_1/R1P1.JPG">
-      <div class="text">Caption Three</div>
-
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-  </div> -->
-    <!-- </div> -->
-
-    <!-- <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div> -->
 
     <!-- LEAFLET.js -->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
@@ -192,7 +189,7 @@
       ).addTo(map);
 
       // $.getJSON() here
-      var markerLayer = $.getJSON("Raw Data/Markers.geojson", function (data) {
+      var markerLayer = $.getJSON("Raw_Data/Markers.geojson", function (data) {
         var Markers = L.geoJson(data, {
           style: function (feature) {
             return {
@@ -210,16 +207,16 @@
         Markers.eachLayer(function (layer) {
           var props = layer.feature.properties;
           var tipInfo = `<b>Cleanliness:</b> ${props["Cleanliness"]} <br>
-        <b>Atmosphere:</b> ${props["Atmosphere"]}`
-        if (L.Browser.mobile) {
-          // if true use popup
-          layer.bindPopup(tipInfo);
-        } else {
-          // if false use tooltip
-          layer.bindTooltip(tipInfo, {
-            sticky: true
-          });
-        };
+        <b>Atmosphere:</b> ${props["Atmosphere"]}`;
+          if (L.Browser.mobile) {
+            // if true use popup
+            layer.bindPopup(tipInfo);
+          } else {
+            // if false use tooltip
+            layer.bindTooltip(tipInfo, {
+              sticky: true,
+            });
+          }
         });
       }
 
@@ -227,74 +224,60 @@
       /* --------------- Toggle on/off info footer content ---------------  */
       var infoClicked = false; // start with false condition
       var infoContainer = $("#footer");
+      var infoShade = $("#info-button");
 
       $("#info-button").click(function () {
         // create button that changes color on click
-        // create a footer overlay that displays 33% of the current viewport height
         if (infoClicked == true) {
           console.log("info click false");
           infoContainer.css("display", "none");
+          infoShade.css("background-color", "#045a8d");
           infoClicked = false;
         } else {
           console.log("info click true");
           infoContainer.css("display", "block");
+          infoShade.css("background-color", "#49a4d8");
           infoClicked = true;
         }
       });
+      /* --------------- Toggle on/off info footer content ---------------  */
+      var metricsClicked = false; // start with false condition
+      var metricsContainer = $("#metrics");
+      var metricsShade = $("#metrics-button");
 
-      /* --------------- Toggle on/off slideshow button ---------------  */
-      var slideShowClicked = false; // start with false condition
-      var slideSlowContainer = $("#slideshow");
-
-      $("#pic-button").click(function () {
+      $("#metrics-button").click(function () {
         // create button that changes color on click
-        // create a footer overlay that displays 33% of the current viewport height
-        if (slideShowClicked == true) {
-          console.log("slide click true");
-          // d.style.background = "#045a8d"; // indigo blue
-          // slideSlowContainer.style.height = "0px"; // no footer height
-          slideSlowContainer.css("display", "none");
-          slideShowClicked = false;
+        if (metricsClicked == true) {
+          console.log("info click false");
+          metricsContainer.css("display", "none");
+          metricsShade.css("background-color", "#045a8d");
+          metricsClicked = false;
         } else {
-          console.log("slide click false");
-          // d.style.background = "#5D7DC3"; // periwinkle gray
-          // slideSlowContainer.style.height = "33vh"; // footer 33% of viewport height
-          slideSlowContainer.css("display", "block");
-          slideShowClicked = true;
+          console.log("info click true");
+          metricsContainer.css("display", "block");
+          metricsShade.css("background-color", "#49a4d8");
+          metricsClicked = true;
         }
       });
+       /* --------------- Toggle on/off info footer content ---------------  */
+       var dataClicked = false; // start with false condition
+      var dataContainer = $("#data");
+      var dataShade = $("#data-button");
 
-      // Slideshow
-      let slideIndex = 1;
-      // showSlides(slideIndex);
-
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
-
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
+      $("#data-button").click(function () {
+        // create button that changes color on click
+        if (dataClicked == true) {
+          console.log("info click false");
+          dataContainer.css("display", "none");
+          dataShade.css("background-color", "#045a8d");
+          dataClicked = false;
+        } else {
+          console.log("info click true");
+          dataContainer.css("display", "block");
+          dataShade.css("background-color", "#49a4d8");
+          dataClicked = true;
         }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
+      });
     </script>
   </body>
 </html>
