@@ -188,37 +188,37 @@
         }
       ).addTo(map);
 
+      var commonStyles = {
+        weight: 1,
+        stroke: 1,
+        fillOpacity: 0.8,
+      };
+
       // $.getJSON() here
       var markerLayer = $.getJSON("Raw_Data/Markers.geojson", function (data) {
         var Markers = L.geoJson(data, {
-          style: function (feature) {
-            return {
-              color: "rgb(73, 73, 73)",
-              weight: 1,
-              fillOpacity: 1,
-              fillColor: "#1f78b4",
-            };
+          pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, commonStyles);
+          },
+          onEachFeature: function (feature, layer) {
+            layer.on("mouseover", function () {
+              layer.setStyle({
+                fillColor: "purple",
+              });
+            });
+            layer.on("mouseout", function () {
+              layer.setStyle({
+                fillColor: "orange",
+              });
+            });
+            var props = layer.feature.properties;
+            var popup = `<b>Cleanliness:</b> ${props["Cleanliness"]} <br>
+        <b>Atmosphere:</b> ${props["Atmosphere"]}`;
+            layer.bindTooltip(popup);
           },
         }).addTo(map);
-        drawMap(Markers);
       });
 
-      function drawMap(Markers) {
-        Markers.eachLayer(function (layer) {
-          var props = layer.feature.properties;
-          var tipInfo = `<b>Cleanliness:</b> ${props["Cleanliness"]} <br>
-        <b>Atmosphere:</b> ${props["Atmosphere"]}`;
-          if (L.Browser.mobile) {
-            // if true use popup
-            layer.bindPopup(tipInfo);
-          } else {
-            // if false use tooltip
-            layer.bindTooltip(tipInfo, {
-              sticky: true,
-            });
-          }
-        });
-      }
 
       // use D3 fetch to request data with async requests
       /* --------------- Toggle on/off info footer content ---------------  */
@@ -259,8 +259,8 @@
           metricsClicked = true;
         }
       });
-       /* --------------- Toggle on/off info footer content ---------------  */
-       var dataClicked = false; // start with false condition
+      /* --------------- Toggle on/off info footer content ---------------  */
+      var dataClicked = false; // start with false condition
       var dataContainer = $("#data");
       var dataShade = $("#data-button");
 
