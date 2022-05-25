@@ -170,10 +170,10 @@
       const options = {
         scrollWheelZoom: true,
         zoomSnap: 0.1,
-        dragging: false,
+        dragging: true,
         zoomControl: false,
         center: [38.04, -84.5],
-        zoom: 13.25,
+        zoom: 13.75,
       };
       // CREATE LEAFLET MAP
       const map = L.map("map", options);
@@ -203,22 +203,38 @@
           onEachFeature: function (feature, layer) {
             layer.on("mouseover", function () {
               layer.setStyle({
-                fillColor: "purple",
+                fillColor: "black",
               });
             });
             layer.on("mouseout", function () {
               layer.setStyle({
-                fillColor: "orange",
+                fillColor: "aqua",
               });
             });
             var props = layer.feature.properties;
-            var popup = `<b>Cleanliness:</b> ${props["Cleanliness"]} <br>
-        <b>Atmosphere:</b> ${props["Atmosphere"]}`;
-            layer.bindTooltip(popup);
+            var popup = 
+            `<h2>Metric Analysis</h2>
+            <b>Cleanliness:</b> ${props["Cleanliness"]} 
+            <br>
+            <b>Atmosphere:</b> ${props["Atmosphere"]}
+            <br>
+            <b>Social Interaction:</b> ${props["Interaction"]}
+            <br>
+            <b>Sidewalk:</b> ${props["Sidewalk"]}
+            <br>
+            <b>Traffic:</b> ${props["Traffic Volume"]}
+            <br>
+            <b>Visibility:</b> ${props["Visibility"]}
+            <br>
+            <b>Design:</b> ${props["Design"]}
+            <br>
+            <br>
+            <img class='popup-img' src='${props["Path"]}' alt=""/>`;
+
+            layer.bindPopup(popup);
           },
         }).addTo(map);
       });
-
 
       // use D3 fetch to request data with async requests
       /* --------------- Toggle on/off info footer content ---------------  */
