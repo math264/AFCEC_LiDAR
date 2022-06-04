@@ -63,8 +63,10 @@ a {
     z-index: 1000; /* place above map */
     bottom: 10%;
     right: 3%;
+    height: 5em;
+    width: 15em;
     padding: 2% 5%;
-    text-align: top;
+    text-align: center;
     background: #045a8d;
   }
   #info-button {
@@ -101,6 +103,42 @@ a {
     font-size: 1em;
     top: 22%;
     right: 3%;
+    cursor: pointer;
+  }
+  #route1-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 12.5%;
+    right: 47%;
+    cursor: pointer;
+  }
+  #route2-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 12.5%;
+    right: 25.5%;
+    cursor: pointer;
+  }
+  #route3-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 12.5%;
+    right: 5.5%;
     cursor: pointer;
   }
   div.transbox {
@@ -234,6 +272,42 @@ a {
     display: inline-block;
     font-size: 1em;
     top: 35%;
+    right: 3%;
+    cursor: pointer;
+  }
+  #route1-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 15%;
+    right: 3%;
+    cursor: pointer;
+  }
+  #route2-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 15%;
+    right: 3%;
+    cursor: pointer;
+  }
+  #route3-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 22%;
     right: 3%;
     cursor: pointer;
   }
@@ -379,6 +453,42 @@ a {
     right: 3%;
     cursor: pointer;
   }
+  #route1-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 15%;
+    right: 3%;
+    cursor: pointer;
+  }
+  #route2-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 15%;
+    right: 3%;
+    cursor: pointer;
+  }
+  #route3-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 22%;
+    right: 3%;
+    cursor: pointer;
+  }
   div.transbox {
     margin: 2%;
     display: block;
@@ -517,6 +627,42 @@ a {
     display: inline-block;
     font-size: 1em;
     top: 2.5%;
+    right: 3%;
+    cursor: pointer;
+  }
+  #route1-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 15%;
+    right: 3%;
+    cursor: pointer;
+  }
+  #route2-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 15%;
+    right: 3%;
+    cursor: pointer;
+  }
+  #route3-button {
+    position: fixed;
+    border: 2px;
+    background-color: #045a8d;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    bottom: 22%;
     right: 3%;
     cursor: pointer;
   }

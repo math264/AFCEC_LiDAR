@@ -53,9 +53,14 @@
     <!-- Map Container -->
     <div id="map"></div>
 
+    <!-- map.setView(coords, zoom) -->
+
     <!-- LEGEND CONTAINER -->
     <div id="ui">
-      <h2>Walkability Data</h2>
+      <h2>Walkability Routes</h2>
+      <button id="route1-button">Route 1</button>
+      <button id="route2-button">Route 2</button>
+      <button id="route3-button">Route 3</button>
     </div>
 
     <!-- Footer -->
@@ -212,24 +217,23 @@
               });
             });
             var props = layer.feature.properties;
-            var popup = 
-            `<h2>Metric Analysis</h2>
-            <b>Cleanliness:</b> ${props["Cleanliness"]} 
-            <br>
-            <b>Atmosphere:</b> ${props["Atmosphere"]}
-            <br>
-            <b>Social Interaction:</b> ${props["Interaction"]}
-            <br>
-            <b>Sidewalk:</b> ${props["Sidewalk"]}
-            <br>
-            <b>Traffic:</b> ${props["Traffic Volume"]}
-            <br>
-            <b>Visibility:</b> ${props["Visibility"]}
-            <br>
-            <b>Design:</b> ${props["Design"]}
-            <br>
-            <br>
-            <img class='popup-img' src='${props["Path"]}' alt=""/>`;
+            var popup = `<h2>Metric Analysis</h2>
+              <b>Cleanliness:</b> ${props["Cleanliness"]}
+              <br>
+              <b>Atmosphere:</b> ${props["Atmosphere"]}
+              <br>
+              <b>Social Interaction:</b> ${props["Interaction"]}
+              <br>
+              <b>Sidewalk:</b> ${props["Sidewalk"]}
+              <br>
+              <b>Traffic:</b> ${props["Traffic Volume"]}
+              <br>
+              <b>Visibility:</b> ${props["Visibility"]}
+              <br>
+              <b>Design:</b> ${props["Design"]}
+              <br>
+              <br>
+              <img class='popup-img' src='${props["Path"]}' alt=""/>`;
 
             layer.bindPopup(popup);
           },
@@ -252,6 +256,7 @@
         } else {
           console.log("info click true");
           infoContainer.css("display", "block");
+          map.setView(r1Coords, r1Zoom);
           infoShade.css("background-color", "#49a4d8");
           infoClicked = true;
         }
@@ -264,12 +269,12 @@
       $("#metrics-button").click(function () {
         // create button that changes color on click
         if (metricsClicked == true) {
-          console.log("info click false");
+          console.log("metric click false");
           metricsContainer.css("display", "none");
           metricsShade.css("background-color", "#045a8d");
           metricsClicked = false;
         } else {
-          console.log("info click true");
+          console.log("metric click true");
           metricsContainer.css("display", "block");
           metricsShade.css("background-color", "#49a4d8");
           metricsClicked = true;
@@ -283,15 +288,71 @@
       $("#data-button").click(function () {
         // create button that changes color on click
         if (dataClicked == true) {
-          console.log("info click false");
+          console.log("data click false");
           dataContainer.css("display", "none");
           dataShade.css("background-color", "#045a8d");
           dataClicked = false;
         } else {
-          console.log("info click true");
+          console.log("data click true");
           dataContainer.css("display", "block");
           dataShade.css("background-color", "#49a4d8");
           dataClicked = true;
+        }
+      });
+      /* --------------- Route 1 Button ---------------  */
+      var roneClicked = false; // start with false condition
+      var roneShade = $("#route1-button");
+      var roneCoords = [38.025, -84.4225];
+      var roneZoom = 16;
+
+      $("#route1-button").click(function () {
+        // create button that changes color on click
+        if (infoClicked == true) {
+          console.log("route 1 click false");
+          roneShade.css("background-color", "#045a8d");
+          infoClicked = false;
+        } else {
+          console.log("route 1 click true");
+          map.setView(roneCoords, roneZoom);
+          roneShade.css("background-color", "#49a4d8");
+          infoClicked = true;
+        }
+      });
+      /* --------------- Route 2 Button ---------------  */
+      var rtwoClicked = false; // start with false condition
+      var rtwoShade = $("#route2-button");
+      var rtwoCoords = [38.02, -84.416];
+      var rtwoZoom = 16.5;
+
+      $("#route2-button").click(function () {
+        // create button that changes color on click
+        if (rtwoClicked == true) {
+          console.log("route 2 click false");
+          rtwoShade.css("background-color", "#045a8d");
+          rtwoClicked = false;
+        } else {
+          console.log("route 2 click true");
+          map.setView(rtwoCoords, rtwoZoom);
+          rtwoShade.css("background-color", "#49a4d8");
+          rtwoClicked = true;
+        }
+      });
+      /* --------------- Route 3 Button --------------- */ 
+      var rthreeClicked = false; // start with false condition
+      var rthreeShade = $("#route3-button");
+      var rthreeCoords = [38.047385,-84.495685];
+      var rthreeZoom = 16;
+      $("#route3-button").click(function () {
+        // create button that changes color on click
+        if (rthreeClicked == true) {
+          console.log("route 3 click false");
+          rthreeShade.css("background-color", "#045a8d");
+          rthreelicked = false;
+        } else {
+          console.log("route 3 click true");
+          map.setView(rthreeCoords, rthreeZoom);
+          rthreeShade.css("background-color", "#49a4d8");
+          rthreeClicked = true;
         }
       });
     </script>
