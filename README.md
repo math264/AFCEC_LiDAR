@@ -75,7 +75,7 @@ Metrics used to rate Walkability:
 
 Metric Analysis Example:
 
-![Metric Analysis](/Images/Walkability/Metric_breakdown.JPG)
+![Metric Analysis](/Images/Walkability/README.md/Metric_breakdown.JPG)
 
 After collection, data was processed into markers...
 
@@ -87,7 +87,7 @@ After collection, data was processed into markers...
 + GPS coordinates of each photo exported as geoJSON using ImportPhotos plugin
 + Attribute tables cleaned up and metric collections added as new field data
 
-![Data-example](./Images/Walkability/data_example.JPG)
+![Data-example](./Images/Walkability/README.md/data_example.JPG)
 
 **Anticipated Format**
 + Marker data will be hosted in geoJSON forat for web-mapping
@@ -102,7 +102,7 @@ The map is a web browser-based application accessible across mobile and desktop 
 ## C. Application Layout
 
 **Layout Across Devices**
-![Layout-example](./Images/interaction.jpeg)
+![Layout-example](./Images/Walkability/README.md/interaction.jpeg)
 
 
 ## D. Thematic Representation
