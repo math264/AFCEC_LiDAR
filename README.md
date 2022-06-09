@@ -29,9 +29,6 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 
 The following map conducts it's examination on routes and metrics in Lexington,KY. Through cartographic and user design, this map will appeal to those in city planning/urban safety and explore metrics pedestrians value most during a walk. The user will be encouraged to see walkability through the eyes of pedestrians and consider improvements that would make walking more enjoyable. Those in city planning/urban safety will gain pedestrian experience and concerns, which will help to facilitate walking that enhances the pedestrian experience.
 
-**Wireframe**
-![Wireframe](./Images/Walkability/README.md/Wireframe.PNG)
-
 # II. Walkability Assessment
 
 Walkability is a concept that is not unlike a blank canvas, requiring creativity, purpose, and inspiration. It's ability to be molded into an index with background and intent is profound, enabling application into a variety of topics. However, having an open layout such as this leaves room for biases and nuances that muddle it's purpose. The core of walkability resides with the metrics used, resembling the purpose and intent of the index while retaining any nuances. What follows are two example that emphasize the importance of metrics and their control of walkability indexes.
@@ -97,9 +94,12 @@ After collection, data was processed into markers...
 
 ## B. Medium for Delivery
 
-The map is a web browser-based application accessible across mobile and desktop devices that utilizes a specific technology stack that incorporates application, thematic representation, and user interaction. The technology stack includes HTML, CSS, Leaflet, and JavaScript to create a responsive framework.
+The map is a web browser-based application accessible across mobile and desktop devices that utilizes a specific technology stack that incorporates application, thematic representation, and user interaction. The technology stack includes HTML, CSS, JavaScript (Leaflet & JQuery) to create a responsive framework.
 
 ## C. Application Layout
+
+**Wireframe**
+![Wireframe](./Images/Walkability/README.md/Wireframe.PNG)
 
 **Layout Across Devices**
 ![Layout-example](./Images/Walkability/README.md/interaction.jpeg)
