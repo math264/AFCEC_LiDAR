@@ -1,6 +1,6 @@
 <!-- *************************************DRAFT******************************************* -->
 
-# Exploration of Walkability in Lexinton, KY
+# Exploration of Walkability in Lexington, KY
 
 ![Walkability](./Images/Walkability/README.md/cover_photo.jpg)
 
