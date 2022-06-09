@@ -30,7 +30,7 @@ Established in 2017 by the EPA, the Walkability Index (WI) is a publically acces
 The following map conducts it's examination on routes and metrics in Lexington,KY. Through cartographic and user design, this map will appeal to those in city planning/urban safety and explore metrics pedestrians value most during a walk. The user will be encouraged to see walkability through the eyes of pedestrians and consider improvements that would make walking more enjoyable. Those in city planning/urban safety will gain pedestrian experience and concerns, which will help to facilitate walking that enhances the pedestrian experience.
 
 **Wireframe**
-![Wireframe](Wireframe.PNG)
+![Wireframe](./Images/Walkability/README.md/Wireframe.PNG)
 
 # II. Walkability Assessment
 
@@ -38,13 +38,13 @@ Walkability is a concept that is not unlike a blank canvas, requiring creativity
 
 The EPA has a series of interactive maps concerning location efficiency titled *Smart Location Mapping*. One particular map focusing on downtown Chicago emits ambiguity through a lack of metric breakdown.
 
-![EPA Smart Location Mapping](/Images/Walkability/Chicago_WI.JPG)
+![EPA Smart Location Mapping](/Images/Walkability/README.md/Chicago_WI.JPG)
 
 After referencing the legend, we see that downtown Chicago is much more walkable than surrounding suburbs and rural areas. The potential issue here is it's broad application, leaving the index open to bias through subjective means. Chicago might be more walkable in terms of distance, but what about comfort level and safety? If the index metrics focus on crime rate and cleanliness, I doubt anyone would suggest Chicago is more walkable in that regard. The use of metrics without pedestrian consideration inevitably introduces subjectivity as the user attemps to fill in the ambivalence. 
 
 A useful interactive website [Walk Score](https://www.walkscore.com/) brings walkability and location efficiency to your finger tips! Search any address or area and find a walk score associated with each search. This interactive web-map is a great concept, but exploring *Walk Score* really opened my eyes on walkability and inpired me to emphasize the importance of metrics. After any search, clicking on the walk score will open up a dialogue box that breaks down the metrics that generate the score. Below is an example of the metrics used in *Walk Score*.
 
-![Walk Score metrics](/Images/Walkability/Walk_Score.JPG)
+![Walk Score metrics](/Images/Walkability/README.md/Walk_Score.JPG)
 
 These metrics are essentially amenities and local hotspots that can potentially facilitate more walking through close proximity. Makes sense, right? Everyone has walked to a local restaurant/bar, stores, and parks to get out and enjoy life. However, these metrics define walkability based on the motivated potential of walkability.
 
@@ -57,10 +57,10 @@ This project's methodology is comprised of numerous subsections that cover data,
 ## A. Data
 
 **Data Source**:
-The data source is ground-truth from field collection in Lexington, KY. 
+The data source is ground-truth from field collection in Lexington, KY. Pictures taken with IPhone 13.
 
 **Data Acquisition & Wrangling**:
-Data is represented as routes and markers. Collection involved physically walking each route, taking photos with GPS coordinates, and rating the walkability of a photo's location through a series of compiled metrics. Initial pilot data collected is to verify methodology and approach. 
+Data is represented as markers that outline each route. Collection involved physically walking each route, taking photos with GPS coordinates, and rating the walkability of a photo's location through a series of compiled metrics. This project's data acquisition and wrangling process varies from the workflow taught in NewMaps plus, but only as a result of acquiring data in the field.  
 
 Metrics used to rate Walkability:
 + Aesthetics
@@ -73,16 +73,11 @@ Metrics used to rate Walkability:
     + Visibility
     + Pedestrian Design
 
-After collection, data was processed into routes and markers...
+Metric Analysis Example:
 
-**Routes**
-+ Initially digitized in Google Maps
-+ Converted Google Maps URL to [GPX file](https://mapstogpx.com/)
-+ Converted GPX file into GeoJSON using [geojson.io](http://geojson.io/)
-    + Added names of route points to data attribute property "name"
-    + data attribute properties description and symbology removed from encoding
+![Metric Analysis](/Images/Walkability/Metric_breakdown.JPG)
 
-![GeoJSONs](./Images/Walkability/geojson_example.JPG)
+After collection, data was processed into markers...
 
 **Markers**
 + Photos were taken along each route and labeled according to their route and sequence (e.g. R1P5)
@@ -95,14 +90,14 @@ After collection, data was processed into routes and markers...
 ![Data-example](./Images/Walkability/data_example.JPG)
 
 **Anticipated Format**
-+ Route and Marker data will be hosted in geoJSON forat for web-mapping
++ Marker data will be hosted in geoJSON forat for web-mapping
 
 **Additional Content**
-+ Karl Raitz's historic route
++ Geotagged Photos in popup
 
 ## B. Medium for Delivery
 
-The map is a web browser-based application accessible across mobile and desktop devices which will utilize a specific technology stack that incorporates application, thematic representation, and user interaction. This is tentative, but as a baseline, this project's technology stack will most likely require HTML, SVG, CSS, JavaScript, and Bootstrap to create a responsive framework.
+The map is a web browser-based application accessible across mobile and desktop devices that utilizes a specific technology stack that incorporates application, thematic representation, and user interaction. This is tentative, but as a baseline, this project's technology stack will most likely require HTML, SVG, CSS, JavaScript, and Bootstrap to create a responsive framework.
 
 ## C. Application Layout
 
@@ -112,11 +107,17 @@ The map is a web browser-based application accessible across mobile and desktop 
 
 ## D. Thematic Representation
 
-The data used will be visually represented in a series of points and lines where the points will be proportionally symbolized according to walkability metrics. The size of the proportional symbol will likely encode average ratings of either aesthetics or safety.
+The data will be visually represented in a series of markers for each route, showcasing metric analysis and geotagged photos.
+
+![Markers](/Images/Walkability/README.md/Marker_thematic.JPG)
 
 ## E. User Interaction
 
-The user interaction will be simple and straightforward. Of to one side will be an informative panel that will enable the user to scroll through the project's write-up and metadata. Considering the data will be visually represented as points and lines, basic interactions such as panning and zooming are likely. The proportional markers containing the walkability metrics and photos would work well paired with a click event listener triggering a popup. Each marker popup would show the walkability metrics and associated photo.
+The user interaction will be simple and straightforward. Informative buttons will enable the user to dive into the project's metadata and analysis. Since data will be visually represented as markers, basic interactions such as panning and zooming are likely. The data uses an event listener that initiates a popup when clicked, containing the walkability metrics and photos. To aid the user in maintaining their bearing, markers turn to a blue ring when moused-on and return to a different color fill when moused-out, signifying that marker has already been viewed.
+
+
+![User Interaction](/Images/Walkability/README.md/UI_example.JPG)
+
 
 ## F. Aesthetics and Design Considerations
 
