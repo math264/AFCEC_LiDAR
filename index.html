@@ -245,18 +245,20 @@
       var infoClicked = false; // start with false condition
       var infoContainer = $("#footer");
       var infoShade = $("#info-button");
+      var legend = $("#ui")
 
       $("#info-button").click(function () {
         // create button that changes color on click
         if (infoClicked == true) {
           console.log("info click false");
           infoContainer.css("display", "none");
+          legend.css("display", "block")
           infoShade.css("background-color", "#045a8d");
           infoClicked = false;
         } else {
           console.log("info click true");
           infoContainer.css("display", "block");
-          map.setView(r1Coords, r1Zoom);
+          legend.css("display", "none")
           infoShade.css("background-color", "#49a4d8");
           infoClicked = true;
         }
@@ -271,11 +273,13 @@
         if (metricsClicked == true) {
           console.log("metric click false");
           metricsContainer.css("display", "none");
+          legend.css("display", "block")
           metricsShade.css("background-color", "#045a8d");
           metricsClicked = false;
         } else {
           console.log("metric click true");
           metricsContainer.css("display", "block");
+          legend.css("display", "none")
           metricsShade.css("background-color", "#49a4d8");
           metricsClicked = true;
         }
@@ -290,11 +294,13 @@
         if (dataClicked == true) {
           console.log("data click false");
           dataContainer.css("display", "none");
+          legend.css("display", "block")
           dataShade.css("background-color", "#045a8d");
           dataClicked = false;
         } else {
           console.log("data click true");
           dataContainer.css("display", "block");
+          legend.css("display", "none")
           dataShade.css("background-color", "#49a4d8");
           dataClicked = true;
         }
