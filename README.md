@@ -75,7 +75,7 @@ Metrics used to rate Walkability:
 
 Metric Analysis Example:
 
-![Metric Analysis](/Images/Walkability/README.md/Metric_breakdown.JPG)
+![Metric Analysis](/Images/Walkability/README.md/Metric_example.JPG)
 
 After collection, data was processed into markers...
 
