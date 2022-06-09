@@ -1,7 +1,6 @@
 <!-- *************************************DRAFT******************************************* -->
 
-# Going the Extra Mile
-## Exploration of Walkability in Lexinton, KY
+# Exploration of Walkability in Lexinton, KY
 
 ![Walkability](./Images/Walkability/README.md/cover_photo.jpg)
 
