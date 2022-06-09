@@ -90,14 +90,14 @@ After collection, data was processed into markers...
 ![Data-example](./Images/Walkability/README.md/data_example.JPG)
 
 **Anticipated Format**
-+ Marker data will be hosted in geoJSON forat for web-mapping
++ Marker data will be hosted in geoJSON format for web-mapping
 
 **Additional Content**
 + Geotagged Photos in popup
 
 ## B. Medium for Delivery
 
-The map is a web browser-based application accessible across mobile and desktop devices that utilizes a specific technology stack that incorporates application, thematic representation, and user interaction. This is tentative, but as a baseline, this project's technology stack will most likely require HTML, SVG, CSS, JavaScript, and Bootstrap to create a responsive framework.
+The map is a web browser-based application accessible across mobile and desktop devices that utilizes a specific technology stack that incorporates application, thematic representation, and user interaction. The technology stack includes HTML, CSS, Leaflet, and JavaScript to create a responsive framework.
 
 ## C. Application Layout
 
