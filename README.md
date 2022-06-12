@@ -19,6 +19,7 @@ motivation: and how we can re-define walkability to promote better health and su
 + [User Interaction](#E-User-Interaction)
 + [Aesthetics and Design](#F-Aesthetics-and-Design)
 + [Conclusion](#G-Conclusion)
++ [Acknowledgements](#H-Acknowledgements)
 
 # I. Introduction
 
@@ -73,7 +74,18 @@ Metric Analysis Example:
 
 ![Metric Analysis](/Images/Walkability/README.md/Metric_example.JPG)
 
-After collection, data was processed into markers...
+![Field Notes](/Images/Walkability/README.md/field_notes.JPG) 
+
+**Data Processing**
+
+After collection, data was processed into routes and markers...
+
+**Routes**
++ Routes were mapped within Google Maps
++ URL copied and pasted into [Maps To GPX](https://mapstogpx.com/)
+    + GPX (the GPS Exchange Format) is a text-based format derived from XML and often used to encode GPS data
++ Exported routes as GPX (GPS Exchange)
++ GPX files loaded into [geojson.io](http://geojson.io/) and converted to usable mapping format, GeoJSON
 
 **Markers**
 + Photos were taken along each route and labeled according to their route and sequence (e.g. R1P5)
@@ -83,7 +95,9 @@ After collection, data was processed into markers...
 + GPS coordinates of each photo exported as geoJSON using ImportPhotos plugin
 + Attribute tables cleaned up and metric collections added as new field data
 
-![Data-example](./Images/Walkability/README.md/data_example.JPG)
+![geojson-example](./Images/Walkability/README.md/data_example.JPG)
+
+![data-example](./Images/Walkability/README.md/data_example.JPG)
 
 **Anticipated Format**
 + Marker data will be hosted in geoJSON format for web-mapping
@@ -125,3 +139,7 @@ The basemap and data background should be informative, but not so detailed that 
 ## G. Conclusion
 
 Walkability is simple in nature, but is often muddled and molded to support each topic and authors' intent. It is a broad framework and although widely applicable, walkability as we know it is biased and often used to market neighborhoods and communities. This study paints walkability in a different light, whereas defined by route rather than community. Inspired by ground-truth data, new metrics are purely route and pedestrian driven, creating transparency between pedestrian values and urban planning. Utilizing ground-truth and pedestrian experience, urban planning is able to dissect entire communities at a larger scale and enhance walkability route by route. 
+
+## H. Acknowledgements
+
+I would like to give special thanks to Laura Wright and Joel Sizemore, engineers at Strand Associates, for helping with data collection and analysis. Their input was invaluable, as it mitigated bias and provided pedestrian design experience to the analysis. I would also like to thank Rich Donohue, for his continuous support and encouragement throughout this project and the NewMapsPlus program.
