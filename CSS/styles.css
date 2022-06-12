@@ -7,6 +7,10 @@
 a {
   color: aqua;
 }
+h3 {
+  color: #000000;
+  font-size: 1.1em;
+}
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {
   background: rgb(102, 102, 102);
   color: rgb(255, 255, 255);
@@ -345,7 +349,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -360,7 +364,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -375,7 +379,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -523,7 +527,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -538,7 +542,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -553,7 +557,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -700,7 +704,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -715,7 +719,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -730,7 +734,7 @@ a {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }

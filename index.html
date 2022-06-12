@@ -83,19 +83,27 @@
         </p>
       </div>
       <!-- Associations -->
-      <div>
+      <div class="transbox" style="column-count: 2">
         <img
           src="https://uky-gis.github.io/graphics/logo-color-400px.png"
           class="footer-img"
         />
-        <h1 style="text-shadow: 2px 2px #ffffff">
-          U.S. Median Gross Rent By County
-        </h1>
-        Data obtained through the American Fact Finder (<a
-          href="http://factfinder.census.gov/"
-          >factfinder.census.gov</a
-        >); 2010 Census, SF1. Map created by
-        <a href="https://github.com/math264">math264</a>, Fall 2020.
+        <h3>
+          Utilizes ground-truth data collected on site. Special thanks to
+          engineers <u>Laura Wright</u> and <u>Joel Sizemore</u> of Strand
+          Associates for their help with data collection and analysis!
+        </h3>
+        <br />
+        <h3 style="text-align: center; font-size: 0.75em; border-style: solid">
+          Authored by:
+          <br />
+          <b>Michael A. Thomas</b>
+          <br />
+          14 June 2022
+          <br />
+          Click <a href="https://github.com/math264">math264</a> to visit my map
+          portfolio!
+        </h3>
       </div>
     </div>
     <!-- Metrics -->
@@ -117,19 +125,27 @@
         </p>
       </div>
       <!-- Associations -->
-      <div>
+      <div class="transbox" style="column-count: 2">
         <img
           src="https://uky-gis.github.io/graphics/logo-color-400px.png"
           class="footer-img"
         />
-        <h1 style="text-shadow: 2px 2px #ffffff">
-          U.S. Median Gross Rent By County
-        </h1>
-        Data obtained through the American Fact Finder (<a
-          href="http://factfinder.census.gov/"
-          >factfinder.census.gov</a
-        >); 2010 Census, SF1. Map created by
-        <a href="https://github.com/math264">math264</a>, Fall 2020.
+        <h3>
+          Utilizes ground-truth data collected on site. Special thanks to
+          engineers <u>Laura Wright</u> and <u>Joel Sizemore</u> of Strand
+          Associates for their help with data collection and analysis!
+        </h3>
+        <br />
+        <h3 style="text-align: center; font-size: 0.75em; border-style: solid">
+          Authored by:
+          <br />
+          <b>Michael A. Thomas</b>
+          <br />
+          14 June 2022
+          <br />
+          Click <a href="https://github.com/math264">math264</a> to visit my map
+          portfolio!
+        </h3>
       </div>
     </div>
     <!-- Data -->
@@ -147,19 +163,27 @@
         </p>
       </div>
       <!-- Associations -->
-      <div>
+      <div class="transbox" style="column-count: 2">
         <img
           src="https://uky-gis.github.io/graphics/logo-color-400px.png"
           class="footer-img"
         />
-        <h1 style="text-shadow: 2px 2px #ffffff">
-          U.S. Median Gross Rent By County
-        </h1>
-        Data obtained through the American Fact Finder (<a
-          href="http://factfinder.census.gov/"
-          >factfinder.census.gov</a
-        >); 2010 Census, SF1. Map created by
-        <a href="https://github.com/math264">math264</a>, Fall 2020.
+        <h3>
+          Utilizes ground-truth data collected on site. Special thanks to
+          engineers <u>Laura Wright</u> and <u>Joel Sizemore</u> of Strand
+          Associates for their help with data collection and analysis!
+        </h3>
+        <br />
+        <h3 style="text-align: center; font-size: 0.75em; border-style: solid">
+          Authored by:
+          <br />
+          <b>Michael A. Thomas</b>
+          <br />
+          14 June 2022
+          <br />
+          Click <a href="https://github.com/math264">math264</a> to visit my map
+          portfolio!
+        </h3>
       </div>
     </div>
 
@@ -177,8 +201,8 @@
         zoomSnap: 0.1,
         dragging: true,
         zoomControl: false,
-        center: [38.04, -84.5],
-        zoom: 13.75,
+        center: [38.0355, -84.4254028],
+        zoom: 13.5,
       };
       // CREATE LEAFLET MAP
       const map = L.map("map", options);
@@ -193,17 +217,51 @@
         }
       ).addTo(map);
 
-      var commonStyles = {
+      // Route Styles
+      var routeStyles = {
+        weight: 1,
+        stroke: 1,
+        fillColor: "white",
+        fillOpacity: 0.8,
+      };
+      // Marker Styles
+      var markerStyles = {
         weight: 1,
         stroke: 1,
         fillOpacity: 0.8,
       };
 
-      // $.getJSON() here
+      // $.getJSON(ROUTES) here
+      var routeLayer = $.getJSON("Raw_Data/Routes.geojson", function (data) {
+        var routes = L.geoJson(data, {
+          pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, routeStyles);
+          },
+          onEachFeature: function (feature, layer) {
+            layer.on("mouseover", function () {
+              layer.setStyle({
+                fillColor: "black",
+              });
+            });
+            layer.on("mouseout", function () {
+              layer.setStyle({
+                fillColor: "aqua",
+              });
+            });
+            // var propsR = layer.feature.properties;
+            // var popupR = `<b>Start:</b> ${propsR["name"]}
+            // <b>Finish:</b> ${propsR["name"]}`;
+
+            // layer.bindPopup(popupR);
+          },
+        }).addTo(map);
+      });
+
+      // $.getJSON(MARKERS) here
       var markerLayer = $.getJSON("Raw_Data/Markers.geojson", function (data) {
         var Markers = L.geoJson(data, {
           pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, commonStyles);
+            return L.circleMarker(latlng, markerStyles);
           },
           onEachFeature: function (feature, layer) {
             layer.on("mouseover", function () {
@@ -245,20 +303,20 @@
       var infoClicked = false; // start with false condition
       var infoContainer = $("#footer");
       var infoShade = $("#info-button");
-      var legend = $("#ui")
+      var legend = $("#ui");
 
       $("#info-button").click(function () {
         // create button that changes color on click
         if (infoClicked == true) {
           console.log("info click false");
           infoContainer.css("display", "none");
-          legend.css("display", "block")
+          legend.css("display", "block");
           infoShade.css("background-color", "#045a8d");
           infoClicked = false;
         } else {
           console.log("info click true");
           infoContainer.css("display", "block");
-          legend.css("display", "none")
+          legend.css("display", "none");
           infoShade.css("background-color", "#49a4d8");
           infoClicked = true;
         }
@@ -273,13 +331,13 @@
         if (metricsClicked == true) {
           console.log("metric click false");
           metricsContainer.css("display", "none");
-          legend.css("display", "block")
+          legend.css("display", "block");
           metricsShade.css("background-color", "#045a8d");
           metricsClicked = false;
         } else {
           console.log("metric click true");
           metricsContainer.css("display", "block");
-          legend.css("display", "none")
+          legend.css("display", "none");
           metricsShade.css("background-color", "#49a4d8");
           metricsClicked = true;
         }
@@ -294,13 +352,13 @@
         if (dataClicked == true) {
           console.log("data click false");
           dataContainer.css("display", "none");
-          legend.css("display", "block")
+          legend.css("display", "block");
           dataShade.css("background-color", "#045a8d");
           dataClicked = false;
         } else {
           console.log("data click true");
           dataContainer.css("display", "block");
-          legend.css("display", "none")
+          legend.css("display", "none");
           dataShade.css("background-color", "#49a4d8");
           dataClicked = true;
         }
@@ -343,10 +401,10 @@
           rtwoClicked = true;
         }
       });
-      /* --------------- Route 3 Button --------------- */ 
+      /* --------------- Route 3 Button --------------- */
       var rthreeClicked = false; // start with false condition
       var rthreeShade = $("#route3-button");
-      var rthreeCoords = [38.050,-84.493];
+      var rthreeCoords = [38.05, -84.493];
       var rthreeZoom = 16.8;
       $("#route3-button").click(function () {
         // create button that changes color on click
