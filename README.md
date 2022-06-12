@@ -95,7 +95,7 @@ After collection, data was processed into routes and markers...
 + GPS coordinates of each photo exported as geoJSON using ImportPhotos plugin
 + Attribute tables cleaned up and metric collections added as new field data
 
-![geojson-example](./Images/Walkability/README.md/data_example.JPG)
+![geojson-example](./Images/Walkability/README.md/geojson_example.JPG)
 
 ![data-example](./Images/Walkability/README.md/data_example.JPG)
 
