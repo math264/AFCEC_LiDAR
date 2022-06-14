@@ -31,7 +31,7 @@
       crossorigin=""
     />
     <!-- LOAD CSS External File -->
-    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
     <!-- Default Zoom for Mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -120,8 +120,6 @@
           from the fundamentals of walking. Where typical metrics focus on
           amenities and their proximity to promote walking, the metrics used in
           this map consider pedestrian values.
-          <br />
-          Metrics used to rate Walkability:
         </p>
       </div>
       <!-- Associations -->
@@ -135,14 +133,14 @@
           engineers <u>Laura Wright</u> and <u>Joel Sizemore</u> of Strand
           Associates for their help with data collection and analysis!
         </h3>
-        <br />
+        <br/>
         <h3 style="text-align: center; font-size: 0.75em; border-style: solid">
           Authored by:
-          <br />
+          <br/>
           <b>Michael A. Thomas</b>
-          <br />
+          <br/>
           14 June 2022
-          <br />
+          <br/>
           Click <a href="https://github.com/math264">math264</a> to visit my map
           portfolio!
         </h3>
@@ -176,9 +174,9 @@
         <br />
         <h3 style="text-align: center; font-size: 0.75em; border-style: solid">
           Authored by:
-          <br />
+          <br/>
           <b>Michael A. Thomas</b>
-          <br />
+          <br/>
           14 June 2022
           <br />
           Click <a href="https://github.com/math264">math264</a> to visit my map
@@ -265,6 +263,7 @@
             layer.on("mouseout", function () {
               layer.setStyle({
                 fillColor: "white",
+                weight: 3.5
               });
             });
             var props = layer.feature.properties;
