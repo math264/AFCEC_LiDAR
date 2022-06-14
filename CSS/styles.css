@@ -177,6 +177,9 @@ h3 {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   #metrics {
     width: 100%;
@@ -189,6 +192,9 @@ h3 {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   #data {
     width: 100%;
@@ -201,7 +207,7 @@ h3 {
     position: absolute;
     /* If too much is included, enable scroll */
     overflow: scroll;
-    background-image: url(/Images/cover_photo.jpg);
+    background-image: url(/Images/Walkability/README.md/cover_photo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
